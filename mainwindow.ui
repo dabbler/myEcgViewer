@@ -17,7 +17,7 @@
      <x>0</x>
      <y>0</y>
      <width>553</width>
-     <height>21</height>
+     <height>30</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
@@ -44,9 +44,7 @@
      <string>&amp;Help</string>
     </property>
     <addaction name="actionAbout"/>
-    <addaction name="actionTest1"/>
-    <addaction name="actionTest2"/>
-    <addaction name="actionTest3"/>
+    <addaction name="actionLicensing"/>
    </widget>
    <widget class="QMenu" name="menu_Window">
     <property name="title">
@@ -162,28 +160,12 @@
     <string>About</string>
    </property>
   </action>
-  <action name="actionTest1">
+  <action name="actionLicensing">
    <property name="text">
-    <string>Debug Test 1</string>
+    <string>Licensing</string>
    </property>
-   <property name="shortcut">
-    <string>Ctrl+Alt+1</string>
-   </property>
-  </action>
-  <action name="actionTest2">
-   <property name="text">
-    <string>Debug Test 2</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+Alt+2</string>
-   </property>
-  </action>
-  <action name="actionTest3">
-   <property name="text">
-    <string>Debug Test 3</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+Alt+3</string>
+   <property name="toolTip">
+    <string>Licensing Info</string>
    </property>
   </action>
   <action name="action_Close">

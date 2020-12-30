@@ -89,10 +89,6 @@ public slots:
 
     void openMruFile( int mruFileIndex );
 
-    void on_actionTest1_triggered();
-    void on_actionTest2_triggered();
-    void on_actionTest3_triggered();
-
 signals:
     void fileDragDropped( QString pathName );
     void moveLeft_signaled();
@@ -109,6 +105,9 @@ signals:
     void paste_signaled();
     void receiveData_signaled();
     void keyPressEvent_signaled( QKeyEvent * event );
+
+private slots:
+    void on_actionLicensing_triggered();
 
 private:
     void createActions();

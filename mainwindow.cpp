@@ -24,6 +24,7 @@
 
 #include "showsignal.h"
 #include "ecgdata.h"
+#include "infobox.h"
 
 #include "configdialog.h"
 
@@ -184,6 +185,7 @@ void MainWindow::createActions()
     ui->action_Next->setStatusTip( tr("Move the focus to the next window") );
     ui->action_Previous->setStatusTip( tr("Move the focus to the previous window") );
     ui->actionAbout->setStatusTip( tr("Show the application's About box") );
+    ui->actionLicensing->setStatusTip( tr("Show the application's Licensing box") );
 
     connect( ui->action_Open, SIGNAL(triggered()), this, SLOT(open()) );
     connect( ui->action_Print, SIGNAL(triggered()), this, SLOT(print()) );
@@ -199,6 +201,7 @@ void MainWindow::createActions()
     connect( ui->action_Next, SIGNAL(triggered()), mdiArea, SLOT(activateNextSubWindow()) );
     connect( ui->action_Previous, SIGNAL(triggered()), mdiArea, SLOT(activatePreviousSubWindow()) );
     connect( ui->actionAbout, SIGNAL(triggered()), this, SLOT(about()) );
+    connect( ui->actionLicensing, SIGNAL(triggered()), this, SLOT(licensing()) );
 
 
     actionSeparator = new QAction(this);
@@ -699,41 +702,15 @@ void MainWindow::openMruFile( int mruFileIndex )
 /* }}} */
 
 
-/** {{{ void MainWindow::on_actionTest1_triggered()
- */
-void MainWindow::on_actionTest1_triggered()
+
+void MainWindow::on_actionLicensing_triggered()
 {
-    ShowSignal *ss = qobject_cast<ShowSignal *>( activeMdiChild() );
+	InfoBox	*boxLicensing;
 
-    if ( ss && ss->m_ecgdata ) {
-        QString fileName = ss->windowTitle();
-        for ( int ch = 0 ; ch < ss->m_ecgdata->channel_count ; ch++ ) {
-            QFile file( QString("%1.df%2").arg(fileName).arg(ch+1) );
-            file.open(QIODevice::WriteOnly);
-            QTextStream out(&file);
-
-            statusBar()->showMessage(tr("Finished writing differences for %1").arg(QString("%1.df%2").arg(fileName).arg(ch+1)), 700);
-        }
-    }
+	QString msg("The software included in this product contains copyrighted software that is licensed under the GPLv3.\n\nYou may obtain the complete Corresponding Source code from our distribution site at https://github.com/dabbler/SironaEcgViewer.git");
+	boxLicensing = new InfoBox( NULL, msg, 15000 );
+	boxLicensing->addWidgetHeight( 100 );
 }
-/* }}} */
-
-
-/** {{{ void MainWindow::on_actionTest2_triggered()
- */
-void MainWindow::on_actionTest2_triggered()
-{
-}
-/* }}} */
-
-
-/** {{{ void MainWindow::on_actionTest3_triggered()
- */
-void MainWindow::on_actionTest3_triggered()
-{
-
-}
-/* }}} */
 
 
 
