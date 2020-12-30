@@ -1,0 +1,39 @@
+# Input
+#
+HEADERS += \
+	ecgdata.h \
+    myheader.h \
+    showsignal.h \
+    utils.h \
+    appicon.xpm \
+    configdialog.h \
+    pages.h \
+    mainwindow.h \
+	infobox.h \
+	wfdb/ann_map.h \
+	wfdb/ecgcodes.h \
+	wfdb/ecgmap.h \
+	wfdb/wfdb.h \
+	wfdb/wfdblib.h \
+    version.h
+
+SOURCES += \
+	SironaHolterViewer.cpp \
+    ecgdata.cpp \
+    showsignal.cpp \
+    utils.cpp \
+    configdialog.cpp \
+    pages.cpp \
+    mainwindow.cpp \
+    infobox.cpp \
+	wfdb/ann_map.c \
+	wfdb/annot.c \
+	wfdb/signal.c \
+	wfdb/wfdbinit.c \
+	wfdb/wfdbio.c \
+
+FORMS += mainwindow.ui \
+    infobox.ui
+
+RESOURCES += mdi.qrc
+

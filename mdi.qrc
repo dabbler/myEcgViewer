@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>out/images/copy.png</file>
+        <file>out/images/cut.png</file>
+        <file>out/images/new.png</file>
+        <file>out/images/open.png</file>
+        <file>out/images/paste.png</file>
+        <file>out/images/save.png</file>
+        <file>out/images/heart1.png</file>
+        <file>out/images/left2.png</file>
+        <file>out/images/right2.png</file>
+        <file>out/images/print.png</file>
+        <file>out/images/printPDF.png</file>
+        <file>out/images/Exit.png</file>
+        <file>out/images/gear.png</file>
+        <file>out/images/user_32.png</file>
+        <file>out/images/monitor_32.png</file>
+        <file>out/images/download_icon.png</file>
+        <file>out/images/splash.png</file>
+        <file>out/images/print_strip.png</file>
+    </qresource>
+</RCC>

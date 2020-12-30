@@ -1,0 +1,1061 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AB	wfdbio.c	427;"	d	file:
+AB	wfdbio.c	442;"	d	file:
+AB	wfdbio.c	450;"	d	file:
+ABERR	ecgcodes.h	37;"	d
+ABLKSIZ	annot.c	118;"	d	file:
+ACMAX	ecgcodes.h	78;"	d
+AESC	ecgcodes.h	65;"	d
+ANN_MAP_H	ann_map.h	10;"	d
+APAHIGH	ecgmap.h	135;"	d
+APALOW	ecgmap.h	136;"	d
+APATT	ecgmap.h	134;"	d
+APC	ecgcodes.h	41;"	d
+APHIGH	ecgmap.h	132;"	d
+APLOW	ecgmap.h	133;"	d
+APSTD	ecgmap.h	131;"	d
+APUNDEF	ecgmap.h	130;"	d
+ARFCT	ecgcodes.h	48;"	d
+AUX	annot.c	113;"	d	file:
+AUXBUFLEN	annot.c	115;"	d	file:
+AUXLEN	annot.c	119;"	d	file:
+BBB	ecgcodes.h	56;"	d
+BEATINFO_H	beatinfo.h	2;"	d
+BROKEN_CC	signal.c	178;"	d	file:
+BUFLN	signal.c	3482;"	d	file:
+BeatInfo	beatinfo.h	/^	BeatInfo( int32_t p, int32_t t )$/;"	f	class:BeatInfo
+BeatInfo	beatinfo.h	/^	BeatInfo()$/;"	f	class:BeatInfo
+BeatInfo	beatinfo.h	/^class BeatInfo$/;"	c
+CACHEDIR	wfdblib.h	252;"	d
+CACHESIZE	wfdblib.h	253;"	d
+CALLBACK	wfdb.h	243;"	d
+CFLAGS	wfdbio.c	267;"	d	file:
+CHANNEL_MAX	ecgdata.h	10;"	d
+CHN	annot.c	112;"	d	file:
+CHUNK	wfdbio.c	/^typedef struct chunk CHUNK;$/;"	t	typeref:struct:chunk	file:
+CHUNK	wfdbio.c	1238;"	d	file:
+CODE	annot.c	100;"	d	file:
+CONFIGDIALOG_H	configdialog.h	5;"	d
+COUNT_OF_DISPLAY_EXTRA	showsignal.h	40;"	d
+CS	annot.c	101;"	d	file:
+ConfigDialog	configdialog.cpp	/^ConfigDialog::ConfigDialog()$/;"	f	class:ConfigDialog
+ConfigDialog	configdialog.h	/^class ConfigDialog : public QDialog$/;"	c
+DATA	annot.c	102;"	d	file:
+DEFWFDB	wfdblib.h	110;"	d
+DEFWFDB	wfdblib.h	112;"	d
+DEFWFDB	wfdblib.h	129;"	d
+DEFWFDB	wfdblib.h	131;"	d
+DEFWFDBANNSORT	wfdblib.h	154;"	d
+DEFWFDBANNSORT	wfdblib.h	156;"	d
+DEFWFDBCAL	wfdblib.h	143;"	d
+DEFWFDBGVMODE	wfdblib.h	166;"	d
+DIASTOLE	ecgcodes.h	52;"	d
+DISPLAY_EXTRA_ADC_ZERO	showsignal.h	38;"	d
+DISPLAY_EXTRA_GRID_DOTS	showsignal.h	39;"	d
+DISPLAY_EXTRA_NONE	showsignal.h	37;"	d
+DSEP	wfdbio.c	425;"	d	file:
+DSEP	wfdbio.c	436;"	d	file:
+DSEP	wfdbio.c	439;"	d	file:
+DSEP	wfdbio.c	448;"	d	file:
+DllMain	wfdbio.c	/^int WINAPI DllMain(HINSTANCE hInstance, DWORD fdwReason, PVOID pvReserved)$/;"	f
+ECGDATA_H	ecgdata.h	6;"	d
+ECG_DISPLAY_WINDOW_SIZE_SECONDS	showsignal.h	53;"	d
+ECG_HEADER_UNIVERSAL	ecgdata.h	19;"	d
+ENTRYSIZE	wfdblib.h	254;"	d
+EOAF	annot.c	120;"	d	file:
+EROFS	wfdblib.h	242;"	d
+EROFS	wfdblib.h	244;"	d
+EcgData	ecgdata.cpp	/^EcgData::EcgData( QString filename, QWidget *parent )$/;"	f	class:EcgData
+EcgData	ecgdata.cpp	/^EcgData::EcgData( QWidget *parent )$/;"	f	class:EcgData
+EcgData	ecgdata.h	/^class EcgData : public QObject$/;"	c
+EcgPage	pages.cpp	/^EcgPage::EcgPage(QWidget *parent)$/;"	f	class:EcgPage
+EcgPage	pages.h	/^class EcgPage : public QWidget$/;"	c
+FALSE	wfdblib.h	200;"	d
+FCONSTSTRING	wfdb.h	/^typedef const char *FCONSTSTRING;$/;"	t
+FCONSTSTRING	wfdb.h	232;"	d
+FCONSTSTRING	wfdb.h	246;"	d
+FDATE	wfdb.h	/^typedef WFDB_Date FDATE;$/;"	t
+FDATE	wfdb.h	233;"	d
+FDATE	wfdb.h	247;"	d
+FDOUBLE	wfdb.h	/^typedef double FDOUBLE;$/;"	t
+FDOUBLE	wfdb.h	234;"	d
+FDOUBLE	wfdb.h	248;"	d
+FFREQUENCY	wfdb.h	/^typedef WFDB_Frequency FFREQUENCY;$/;"	t
+FFREQUENCY	wfdb.h	235;"	d
+FFREQUENCY	wfdb.h	249;"	d
+FINT	wfdb.h	/^typedef int FINT;$/;"	t
+FINT	wfdb.h	236;"	d
+FINT	wfdb.h	250;"	d
+FLONGINT	wfdb.h	/^typedef long FLONGINT;$/;"	t
+FLONGINT	wfdb.h	237;"	d
+FLONGINT	wfdb.h	251;"	d
+FLWAV	ecgcodes.h	62;"	d
+FSAMPLE	wfdb.h	/^typedef WFDB_Sample FSAMPLE;$/;"	t
+FSAMPLE	wfdb.h	238;"	d
+FSAMPLE	wfdb.h	252;"	d
+FSITIME	wfdb.h	/^typedef WFDB_Time FSITIME;$/;"	t
+FSITIME	wfdb.h	239;"	d
+FSITIME	wfdb.h	253;"	d
+FSTRING	wfdb.h	/^typedef char *FSTRING;$/;"	t
+FSTRING	wfdb.h	231;"	d
+FSTRING	wfdb.h	245;"	d
+FUSION	ecgcodes.h	39;"	d
+FVOID	wfdb.h	/^typedef void FVOID;$/;"	t
+FVOID	wfdb.h	240;"	d
+FVOID	wfdb.h	254;"	d
+GL_MULTISAMPLE	showsignal.h	20;"	d
+GeneralPage	pages.cpp	/^GeneralPage::GeneralPage()\/\/(QWidget *parent)$/;"	f	class:GeneralPage
+GeneralPage	pages.h	/^class GeneralPage : public QWidget$/;"	c
+GetPos	showsignal.h	/^	long GetPos() { return curpos_samples; };$/;"	f	class:ShowSignal
+HAS_PUTENV	wfdblib.h	179;"	d
+INFOBOX_H	infobox.h	3;"	d
+InfoBox	infobox.cpp	/^InfoBox::InfoBox( QWidget *parent, QString msg, int timeOut ) :$/;"	f	class:InfoBox
+InfoBox	infobox.h	/^class InfoBox : public QWidget$/;"	c
+JPT	ecgcodes.h	73;"	d
+LBBB	ecgcodes.h	35;"	d
+LDFLAGS	wfdbio.c	263;"	d	file:
+LEARN	ecgcodes.h	61;"	d
+LIGHTHOUSE_H	myheader.h	2;"	d
+LINK	ecgcodes.h	67;"	d
+LibMain	wfdbio.c	/^FINT LibMain(HINSTANCE hinst, WORD wDataSeg, WORD cbHeapSize,$/;"	f
+Load	ecgdata.cpp	/^int EcgData::Load( QString filename )$/;"	f	class:EcgData
+MAINWINDOW_H	mainwindow.h	2;"	d
+MASK_10_BIT	ecgdata.h	15;"	d
+MASK_12_BIT	ecgdata.h	16;"	d
+MASK_4_BIT	ecgdata.h	13;"	d
+MASK_8_BIT	ecgdata.h	14;"	d
+MASK_THESE_BITS	ecgdata.h	12;"	d
+MAXRR	annot.c	103;"	d	file:
+MEASURE	ecgcodes.h	54;"	d
+MEMERR	wfdb.h	205;"	d
+MFNLEN	wfdbio.c	222;"	d	file:
+MKDIR	wfdblib.h	299;"	d
+MKDIR	wfdblib.h	303;"	d
+MM2DEVDOTS	showsignal.h	50;"	d
+MODE_BEAT_DELETION	showsignal.h	31;"	d
+MODE_BEAT_IDENTIFICATION	showsignal.h	30;"	d
+MODE_BEAT_NONE	showsignal.h	28;"	d
+MODE_BEAT_NORMAL	showsignal.h	29;"	d
+MSDOS	wfdblib.h	82;"	d
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	class:MainWindow
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+NAPC	ecgcodes.h	68;"	d
+NESC	ecgcodes.h	44;"	d
+NF_CHUNK_MODE	wfdblib.h	264;"	d
+NF_EOF_ERR	wfdblib.h	260;"	d
+NF_FULL_MODE	wfdblib.h	265;"	d
+NF_NO_ERR	wfdblib.h	259;"	d
+NF_PAGE_SIZE	wfdblib.h	256;"	d
+NF_REAL_ERR	wfdblib.h	261;"	d
+NOISE	ecgcodes.h	47;"	d
+NORMAL	ecgcodes.h	34;"	d
+NOTE	ecgcodes.h	53;"	d
+NOTQRS	ecgcodes.h	33;"	d
+NPC	ecgcodes.h	40;"	d
+NUM	annot.c	110;"	d	file:
+PACE	ecgcodes.h	45;"	d
+PACESP	ecgcodes.h	57;"	d
+PAGES_H	pages.h	6;"	d
+PAGE_MARGIN_BETWEEN	showsignal.h	48;"	d
+PAGE_MARGIN_TOP	showsignal.h	47;"	d
+PAMIN	annot.c	108;"	d	file:
+PFUS	ecgcodes.h	69;"	d
+PQ	ecgcodes.h	71;"	d
+PSEP	wfdbio.c	426;"	d	file:
+PSEP	wfdbio.c	437;"	d	file:
+PSEP	wfdbio.c	440;"	d	file:
+PSEP	wfdbio.c	449;"	d	file:
+PVC	ecgcodes.h	38;"	d
+PWAVE	ecgcodes.h	55;"	d
+RB	wfdbio.c	428;"	d	file:
+RB	wfdbio.c	443;"	d	file:
+RB	wfdbio.c	451;"	d	file:
+RBBB	ecgcodes.h	36;"	d
+RECORDNAME	ecgdata.h	20;"	d
+RHYTHM	ecgcodes.h	59;"	d
+RONT	ecgcodes.h	74;"	d
+ROUND2INT	myheader.h	15;"	d
+Render	showsignal.cpp	/^void ShowSignal::Render( QPainter * dc, QPrinter *printer )$/;"	f	class:ShowSignal
+RenderFullDisclosure	showsignal.cpp	/^void ShowSignal::RenderFullDisclosure( QPainter * dc, QPrinter *printer )$/;"	f	class:ShowSignal
+RenderStrip	showsignal.cpp	/^void ShowSignal::RenderStrip( QPainter * dc, QPrinter *printer )$/;"	f	class:ShowSignal
+SALLOC	wfdb.h	211;"	d
+SCROLL_CHUNK	showsignal.h	52;"	d
+SEEK_END	wfdbio.c	534;"	d	file:
+SFREE	wfdb.h	209;"	d
+SHOWSIGNAL_H	showsignal.h	2;"	d
+SHOW_PROGRESS_AND_WATCHFOR_CANCEL	ecgdata.cpp	26;"	d	file:
+SIMPLE_READ_ANNO	showsignal.cpp	192;"	d	file:
+SKIP	annot.c	109;"	d	file:
+SREALLOC	wfdb.h	212;"	d
+SSTRCPY	wfdb.h	213;"	d
+STCH	ecgcodes.h	49;"	d
+STORE_INTO_CHDATA	ecgdata.cpp	22;"	d	file:
+STRIPHEIGHT_MM	showsignal.h	45;"	d
+SUALLOC	wfdb.h	210;"	d
+SUB	annot.c	111;"	d	file:
+SVESC	ecgcodes.h	66;"	d
+SVN_REVISION	version.h	4;"	d
+SVPB	ecgcodes.h	42;"	d
+SYSTOLE	ecgcodes.h	51;"	d
+SelectiveDirectionCanBeHigher	showsignal.h	25;"	d
+SelectiveDirectionCanBeLower	showsignal.h	24;"	d
+SelectiveDirectionClosest	showsignal.h	26;"	d
+SelectiveDirectionEitherPart	showsignal.h	23;"	d
+SetPos	showsignal.cpp	/^long ShowSignal::SetPos( long start_time_samps )$/;"	f	class:ShowSignal
+ShowAnnotation	showsignal.cpp	/^void ShowSignal::ShowAnnotation( QPainter * dc, int ecgSeconds, double xScale, double yScale, int y_startpos, int whichStrip )$/;"	f	class:ShowSignal
+ShowData	showsignal.cpp	/^void ShowSignal::ShowData( QPainter *dc, int ecgSeconds, double xScale, double yScale, int x_startpos_devicedots, int y_startpos_devicedots, int whichStrip )$/;"	f	class:ShowSignal
+ShowData	showsignal.cpp	/^void ShowSignal::ShowData( QPainter *dc, int whichChannel, int ecgSeconds, double xScale, double yScale, int x_startpos_devicedots, int y_startpos_devicedots, int whichStrip )$/;"	f	class:ShowSignal
+ShowGrid	showsignal.cpp	/^void ShowSignal::ShowGrid( QPainter * dc, int cols, int height_mm, int ecgSeconds, double xScale, double yScale, int y_startpos )$/;"	f	class:ShowSignal
+ShowHeader	showsignal.cpp	/^void ShowSignal::ShowHeader( QPainter * dc, int ecgSeconds, double xScale, double yScale )$/;"	f	class:ShowSignal
+ShowSignal	showsignal.cpp	/^ShowSignal::ShowSignal(QWidget *parent, EcgData *theEcgData )$/;"	f	class:ShowSignal
+ShowSignal	showsignal.h	/^class ShowSignal : public QWidget$/;"	c
+TCH	ecgcodes.h	50;"	d
+TRUE	wfdblib.h	197;"	d
+TWAVE	ecgcodes.h	58;"	d
+UNKNOWN	ecgcodes.h	46;"	d
+UWAVE	ecgcodes.h	60;"	d
+Ui	infobox.h	/^namespace Ui {$/;"	n
+Ui	mainwindow.h	/^namespace Ui {$/;"	n
+UserPage	pages.cpp	/^UserPage::UserPage(QWidget *parent)$/;"	f	class:UserPage
+UserPage	pages.h	/^class UserPage : public QWidget$/;"	c
+VERSION	wfdbio.c	259;"	d	file:
+VESC	ecgcodes.h	43;"	d
+VFILL	signal.c	1706;"	d	file:
+VFOFF	ecgcodes.h	64;"	d
+VFON	ecgcodes.h	63;"	d
+VIEWHEIGHT	showsignal.h	43;"	d
+VIEWTYPE_8_SECOND_STRIP	showsignal.h	34;"	d
+VIEWTYPE_FULL_DISCLOSURE	showsignal.h	35;"	d
+VIEWTYPE_NONE	showsignal.h	33;"	d
+VIEWWIDTH	showsignal.h	42;"	d
+VisualizationPage	pages.cpp	/^VisualizationPage::VisualizationPage(QWidget *parent)$/;"	f	class:VisualizationPage
+VisualizationPage	pages.h	/^class VisualizationPage : public QWidget$/;"	c
+WB	wfdbio.c	429;"	d	file:
+WB	wfdbio.c	444;"	d	file:
+WB	wfdbio.c	452;"	d	file:
+WEP	wfdbio.c	/^FINT WEP(int nParameter)$/;"	f
+WFDB_AC_COUPLED	wfdb.h	142;"	d
+WFDB_AHA_READ	wfdb.h	104;"	d
+WFDB_AHA_WRITE	wfdb.h	105;"	d
+WFDB_APPEND	wfdb.h	106;"	d
+WFDB_Anninfo	wfdb.h	/^typedef struct WFDB_anninfo WFDB_Anninfo;$/;"	t	typeref:struct:WFDB_anninfo
+WFDB_Annotation	wfdb.h	/^typedef struct WFDB_ann WFDB_Annotation;$/;"	t	typeref:struct:WFDB_ann
+WFDB_Annotator	wfdb.h	/^typedef unsigned int WFDB_Annotator;\/* annotator number *\/$/;"	t
+WFDB_CAL_SAWTOOTH	wfdb.h	146;"	d
+WFDB_CAL_SINE	wfdb.h	145;"	d
+WFDB_CAL_SQUARE	wfdb.h	144;"	d
+WFDB_CAL_UNDEF	wfdb.h	147;"	d
+WFDB_Calinfo	wfdb.h	/^typedef struct WFDB_calinfo WFDB_Calinfo;$/;"	t	typeref:struct:WFDB_calinfo
+WFDB_DC_COUPLED	wfdb.h	143;"	d
+WFDB_DEFFREQ	wfdb.h	128;"	d
+WFDB_DEFGAIN	wfdb.h	129;"	d
+WFDB_DEFRES	wfdb.h	130;"	d
+WFDB_Date	wfdb.h	/^typedef long	     WFDB_Date;	    \/* units are days *\/$/;"	t
+WFDB_FILE	wfdblib.h	/^struct WFDB_FILE {$/;"	s
+WFDB_FILE	wfdblib.h	/^typedef struct WFDB_FILE WFDB_FILE;$/;"	t	typeref:struct:WFDB_FILE
+WFDB_FMT_LIST	wfdb.h	124;"	d
+WFDB_Frequency	wfdb.h	/^typedef double	     WFDB_Frequency;\/* units are Hz (samples\/second\/signal) *\/$/;"	t
+WFDB_GVPAD	wfdb.h	136;"	d
+WFDB_Gain	wfdb.h	/^typedef double	     WFDB_Gain;	    \/* units are adus per physical unit *\/$/;"	t
+WFDB_Group	wfdb.h	/^typedef unsigned int WFDB_Group;    \/* signal group number *\/$/;"	t
+WFDB_HIGHRES	wfdb.h	134;"	d
+WFDB_INVALID_SAMPLE	wfdb.h	87;"	d
+WFDB_LOCAL	wfdblib.h	222;"	d
+WFDB_LOWRES	wfdb.h	133;"	d
+WFDB_MAJOR	wfdb.h	33;"	d
+WFDB_MAXANN	wfdb.h	94;"	d
+WFDB_MAXDSL	wfdb.h	99;"	d
+WFDB_MAXRNL	wfdb.h	97;"	d
+WFDB_MAXSIG	wfdb.h	95;"	d
+WFDB_MAXSPF	wfdb.h	96;"	d
+WFDB_MAXUSL	wfdb.h	98;"	d
+WFDB_MINOR	wfdb.h	34;"	d
+WFDB_NET	wfdblib.h	223;"	d
+WFDB_NETFILES	wfdb.h	36;"	d
+WFDB_NETFILES_LIBCURL	wfdb.h	37;"	d
+WFDB_NFMTS	wfdb.h	125;"	d
+WFDB_READ	wfdb.h	102;"	d
+WFDB_RELEASE	wfdb.h	35;"	d
+WFDB_Sample	wfdb.h	/^typedef int	     WFDB_Sample;   \/* units are adus *\/$/;"	t
+WFDB_Seginfo	wfdb.h	/^typedef struct WFDB_seginfo WFDB_Seginfo;$/;"	t	typeref:struct:WFDB_seginfo
+WFDB_Siginfo	wfdb.h	/^typedef struct WFDB_siginfo WFDB_Siginfo;$/;"	t	typeref:struct:WFDB_siginfo
+WFDB_Signal	wfdb.h	/^typedef unsigned int WFDB_Signal;   \/* signal number *\/$/;"	t
+WFDB_Time	wfdb.h	/^typedef long 	     WFDB_Time;	    \/* units are sample intervals *\/$/;"	t
+WFDB_WRITE	wfdb.h	103;"	d
+WFDB_ann	wfdb.h	/^struct WFDB_ann {	\/* annotation structure *\/$/;"	s
+WFDB_anninfo	wfdb.h	/^struct WFDB_anninfo {	\/* annotator information structure *\/$/;"	s
+WFDB_calinfo	wfdb.h	/^struct WFDB_calinfo {	\/* calibration information structure *\/$/;"	s
+WFDB_seginfo	wfdb.h	/^struct WFDB_seginfo {	\/* segment record structure *\/$/;"	s
+WFDB_siginfo	wfdb.h	/^struct WFDB_siginfo {	\/* signal information structure *\/$/;"	s
+WFOFF	ecgcodes.h	72;"	d
+WFON	ecgcodes.h	70;"	d
+Y_SCALE_RATIO	showsignal.h	58;"	d
+_WIN16	wfdblib.h	74;"	d
+_WINDOWS	wfdb.h	42;"	d
+_WINDOWS	wfdb.h	57;"	d
+_WINDOWS	wfdblib.h	62;"	d
+_WINDOWS	wfdblib.h	66;"	d
+_WINDOWS	wfdblib.h	70;"	d
+__STDC__	wfdblib.h	132;"	d
+__VERSION_H	version.h	2;"	d
+_l	signal.c	/^static int _l;		    \/* macro temporary storage for low byte of word *\/$/;"	v	file:
+_lw	signal.c	/^static int _lw;		    \/* macro temporary storage for low 16 bits of int *\/$/;"	v	file:
+_n	signal.c	/^static int _n;		    \/* macro temporary storage for byte count *\/$/;"	v	file:
+about	mainwindow.cpp	/^void MainWindow::about()$/;"	f	class:MainWindow
+actionSeparator	mainwindow.h	/^    QAction *actionSeparator;$/;"	m	class:MainWindow
+activeMdiChild	mainwindow.cpp	/^QWidget *MainWindow::activeMdiChild()$/;"	f	class:MainWindow
+adcres	wfdb.h	/^    int adcres;		\/* ADC resolution in bits *\/$/;"	m	struct:WFDB_siginfo
+adczero	wfdb.h	/^    int adczero;	\/* ADC output given 0 VDC input *\/$/;"	m	struct:WFDB_siginfo
+addWidgetBelow	infobox.cpp	/^void InfoBox::addWidgetBelow( QWidget *widge )$/;"	f	class:InfoBox
+addWidgetHeight	infobox.cpp	/^void InfoBox::addWidgetHeight( int hgtAddOn )$/;"	f	class:InfoBox
+addressH	pages.h	/^    QLineEdit *addressH;$/;"	m	class:GeneralPage
+adumuv	signal.c	/^FINT adumuv(WFDB_Signal s, WFDB_Sample a)$/;"	f
+aduphys	signal.c	/^FDOUBLE aduphys(WFDB_Signal s, WFDB_Sample a)$/;"	f
+afreq	annot.c	/^    WFDB_Frequency afreq;	\/* time resolution, in ticks\/second *\/$/;"	m	struct:iadata	file:
+afreq	annot.c	/^    WFDB_Frequency afreq;	\/* time resolution, in ticks\/second *\/$/;"	m	struct:oadata	file:
+allociann	annot.c	/^static int allociann(unsigned n)$/;"	f	file:
+allocigroup	signal.c	/^static int allocigroup(unsigned int n)$/;"	f	file:
+allocisig	signal.c	/^static int allocisig(unsigned int n)$/;"	f	file:
+allocoann	annot.c	/^static int allocoann(unsigned n)$/;"	f	file:
+allocogroup	signal.c	/^static int allocogroup(unsigned int n)$/;"	f	file:
+allocosig	signal.c	/^static int allocosig(unsigned int n)$/;"	f	file:
+ammap	ecgmap.h	98;"	d
+ann	annot.c	/^    WFDB_Annotation ann;	\/* most recent annotation written by putann *\/$/;"	m	struct:oadata	file:
+ann	annot.c	/^    WFDB_Annotation ann;	\/* next annotation to be returned by getann *\/$/;"	m	struct:iadata	file:
+anndesc	annot.c	/^FSTRING anndesc(int code)$/;"	f
+annopen	annot.c	/^FINT annopen(char *record, WFDB_Anninfo *aiarray, unsigned int nann)$/;"	f
+annotationString	beatinfo.h	/^	QString annotationString;$/;"	m	class:BeatInfo
+annpos	ecgmap.h	140;"	d
+annstr	annot.c	/^FSTRING annstr(int code)$/;"	f
+anntyp	wfdb.h	/^    char anntyp;	\/* annotation type (< ACMAX, see <wfdb\/ecgcodes.h> *\/$/;"	m	struct:WFDB_ann
+astring	annot.c	/^static char *astring[ACMAX+1] = {  \/* mnemonic strings for each code *\/$/;"	v	file:
+ateof	annot.c	/^    int ateof;			\/* EOF-reached indicator *\/$/;"	m	struct:iadata	file:
+aux	wfdb.h	/^    unsigned char *aux;	\/* pointer to auxiliary information *\/$/;"	m	struct:WFDB_ann
+auxstr	annot.c	/^    unsigned char auxstr[AUXBUFLEN]; \/* aux string buffer *\/$/;"	m	struct:iadata	file:
+base_addr	wfdblib.h	/^  long base_addr;$/;"	m	struct:netfile
+baseline	signal.c	/^    WFDB_Sample baseline;$/;"	m	struct:sigmapinfo	file:
+baseline	wfdb.h	/^    int baseline;	\/* ADC output given 0 physical units input *\/$/;"	m	struct:WFDB_siginfo
+bcount	signal.c	/^static double bcount;		\/* base count (counter value at sample 0) *\/$/;"	v	file:
+bdate	signal.c	/^static WFDB_Date bdate;		\/* base date (Julian date) *\/$/;"	v	file:
+be	signal.c	/^    char *be;			\/* pointer to input buffer endpoint *\/$/;"	m	struct:igdata	file:
+be	signal.c	/^    char *be;			\/* pointer to output buffer endpoint *\/$/;"	m	struct:ogdata	file:
+beat_classification_name	showsignal.cpp	/^QString ShowSignal::beat_classification_name( int beattype )$/;"	f	class:ShowSignal
+beat_interval_variance	beatinfo.h	/^		uint32_t beat_interval_variance;$/;"	m	struct:BeatInfo::struct_debug
+bp	signal.c	/^    char *bp;			\/* pointer to next location in buf[] *\/$/;"	m	struct:igdata	file:
+bp	signal.c	/^    char *bp;			\/* pointer to next location in buf[]; *\/$/;"	m	struct:ogdata	file:
+bsize	signal.c	/^    int bsize;			\/* if non-zero, all reads from the input file$/;"	m	struct:igdata	file:
+bsize	signal.c	/^    int bsize;			\/* if non-zero, all writes to the output file$/;"	m	struct:ogdata	file:
+bsize	wfdb.h	/^    int bsize;		\/* block size (for character special files only) *\/$/;"	m	struct:WFDB_siginfo
+btime	signal.c	/^static long btime;		\/* base time (milliseconds since midnight) *\/$/;"	v	file:
+buf	signal.c	/^    char *buf;			\/* pointer to input buffer *\/$/;"	m	struct:igdata	file:
+buf	signal.c	/^    char *buf;			\/* pointer to output buffer *\/$/;"	m	struct:ogdata	file:
+buffer_size	wfdbio.c	/^    long size, buffer_size;$/;"	m	struct:chunk	file:
+bytes_per_samp	ecgdata.h	/^    float bytes_per_samp;$/;"	m	class:EcgData
+cached_middle_beat_found	showsignal.h	/^	long cached_middle_beat_found;$/;"	m	class:ShowSignal
+caltype	wfdb.h	/^    int caltype;	\/* calibration pulse type (see definitions above) *\/$/;"	m	struct:WFDB_calinfo
+cancel_data_loading	ecgdata.cpp	/^void EcgData::cancel_data_loading()$/;"	f	class:EcgData
+cancel_data_saving	showsignal.cpp	/^void ShowSignal::cancel_data_saving()$/;"	f	class:ShowSignal
+cbChanDataVisible	pages.h	/^    QCheckBox *cbChanDataVisible[3];$/;"	m	class:VisualizationPage
+cfreq	signal.c	/^static WFDB_Frequency cfreq;	\/* counter frequency (ticks\/second) *\/$/;"	v	file:
+chan	wfdb.h	/^    unsigned char chan;	\/* channel number *\/$/;"	m	struct:WFDB_ann
+changeAnalysisType	configdialog.cpp	/^void ConfigDialog::changeAnalysisType()$/;"	f	class:ConfigDialog
+changeEvent	infobox.cpp	/^void InfoBox::changeEvent(QEvent * e)$/;"	f	class:InfoBox
+changeEvent	mainwindow.cpp	/^void MainWindow::changeEvent(QEvent *e)$/;"	f	class:MainWindow
+changeLevel	configdialog.cpp	/^void ConfigDialog::changeLevel()$/;"	f	class:ConfigDialog
+changePage	configdialog.cpp	/^void ConfigDialog::changePage(QListWidgetItem *current, QListWidgetItem *previous)$/;"	f	class:ConfigDialog
+channel_count	ecgdata.h	/^    int channel_count;$/;"	m	class:EcgData
+chdata	ecgdata.h	/^    quint16 * chdata[12];$/;"	m	class:EcgData
+chunk	wfdbio.c	/^struct chunk {$/;"	s	file:
+chunk_data	wfdbio.c	1233;"	d	file:
+chunk_data	wfdbio.c	1240;"	d	file:
+chunk_delete	wfdbio.c	1235;"	d	file:
+chunk_delete	wfdbio.c	1242;"	d	file:
+chunk_new	wfdbio.c	1234;"	d	file:
+chunk_new	wfdbio.c	1241;"	d	file:
+chunk_putb	wfdbio.c	1236;"	d	file:
+chunk_putb	wfdbio.c	1243;"	d	file:
+chunk_size	wfdbio.c	1232;"	d	file:
+chunk_size	wfdbio.c	1239;"	d	file:
+cksum	wfdb.h	/^    int cksum;		\/* 16-bit checksum of all samples *\/$/;"	m	struct:WFDB_siginfo
+closeEvent	mainwindow.cpp	/^void MainWindow::closeEvent(QCloseEvent *event)$/;"	f	class:MainWindow
+comboBox	pages.h	/^    QComboBox *comboBox;$/;"	m	class:VisualizationPage
+comboEcgGain	mainwindow.h	/^    QComboBox *comboEcgGain;$/;"	m	class:MainWindow
+comboViewType	showsignal.h	/^    QComboBox *comboViewType;$/;"	m	class:ShowSignal
+comboViewTypeAction	showsignal.h	/^	QAction *comboViewTypeAction;$/;"	m	class:ShowSignal
+connect_child_to_signals	mainwindow.cpp	/^void MainWindow::connect_child_to_signals( QWidget *child )$/;"	f	class:MainWindow
+cont_len	wfdblib.h	/^  long cont_len;$/;"	m	struct:netfile
+contentsWidget	configdialog.h	/^    QListWidget *contentsWidget;$/;"	m	class:ConfigDialog
+convert_hms_to_secs	utils.cpp	/^long convert_hms_to_secs( QString userstr )$/;"	f
+copy	mainwindow.cpp	/^void MainWindow::copy()$/;"	f	class:MainWindow
+copy	showsignal.h	/^	void copy() { return; }$/;"	f	class:ShowSignal
+copysi	signal.c	/^static int copysi(WFDB_Siginfo *to, WFDB_Siginfo *from)$/;"	f	file:
+count	signal.c	/^    char count;			\/* input counter for bit-packed signal *\/$/;"	m	struct:igdata	file:
+count	signal.c	/^    char count;		\/* output counter for bit-packed signal *\/$/;"	m	struct:ogdata	file:
+createActions	mainwindow.cpp	/^void MainWindow::createActions()$/;"	f	class:MainWindow
+createIcons	configdialog.cpp	/^void ConfigDialog::createIcons()$/;"	f	class:ConfigDialog
+createMdiChild	mainwindow.cpp	/^ShowSignal *MainWindow::createMdiChild()$/;"	f	class:MainWindow
+createMenus	mainwindow.cpp	/^void MainWindow::createMenus()$/;"	f	class:MainWindow
+createStatusBar	mainwindow.cpp	/^void MainWindow::createStatusBar()$/;"	f	class:MainWindow
+createToolBars	mainwindow.cpp	/^void MainWindow::createToolBars()$/;"	f	class:MainWindow
+cstring	annot.c	/^static char *cstring[ACMAX+1] = {  \/* ECG mnemonics for each code *\/$/;"	v	file:
+curFile	showsignal.h	/^    QString curFile;	\/\/ used for MDI$/;"	m	class:ShowSignal
+curl_chunk_delete	wfdbio.c	/^static void curl_chunk_delete(struct chunk *c)$/;"	f	file:
+curl_chunk_new	wfdbio.c	/^static CHUNK *curl_chunk_new(long len)$/;"	f	file:
+curl_chunk_putb	wfdbio.c	/^static void curl_chunk_putb(struct chunk *chunk, char *data, size_t len)$/;"	f	file:
+curl_chunk_write	wfdbio.c	/^static size_t curl_chunk_write(void *ptr, size_t size, size_t nmemb,$/;"	f	file:
+curl_error_buf	wfdbio.c	/^static char curl_error_buf[CURL_ERROR_SIZE];$/;"	v	file:
+curl_get_ua_string	wfdbio.c	/^static char *curl_get_ua_string(void)$/;"	f	file:
+curl_header_length_write	wfdbio.c	/^static size_t curl_header_length_write(void *ptr, size_t size, size_t nmemb,$/;"	f	file:
+curl_null_write	wfdbio.c	/^static size_t curl_null_write(void *ptr, size_t size, size_t nmemb,$/;"	f	file:
+curl_try	wfdbio.c	/^static int curl_try(CURLcode err)$/;"	f	file:
+curl_ua	wfdbio.c	/^static CURL *curl_ua = NULL;$/;"	v	file:
+curpos_samples	showsignal.h	/^	long curpos_samples;$/;"	m	class:ShowSignal
+currentFile	showsignal.h	/^    QString currentFile() { return curFile; }$/;"	f	class:ShowSignal
+cut	mainwindow.cpp	/^void MainWindow::cut()$/;"	f	class:MainWindow
+cut	showsignal.h	/^	void cut() { return; }$/;"	f	class:ShowSignal
+data	signal.c	/^    int data;			\/* raw data read by r*() *\/$/;"	m	struct:igdata	file:
+data	signal.c	/^    int data;			\/* raw data to be written by w*() *\/$/;"	m	struct:ogdata	file:
+data	wfdbio.c	/^    char *data;$/;"	m	struct:chunk	file:
+data	wfdblib.h	/^  char *data;$/;"	m	struct:netfile
+data_loading	ecgdata.h	/^    bool data_loading;$/;"	m	class:EcgData
+datalen_secs	ecgdata.h	/^    int datalen_secs;$/;"	m	class:EcgData
+datb	signal.c	/^    int datb;			\/* more raw data used for bit-packed formats *\/$/;"	m	struct:igdata	file:
+datb	signal.c	/^    int datb;			\/* more raw data used for bit-packed formats *\/$/;"	m	struct:ogdata	file:
+date_string	signal.c	/^static char date_string[12] = "";$/;"	v	file:
+datstr	signal.c	/^FSTRING datstr(WFDB_Date date)$/;"	f
+debug	beatinfo.h	/^	} debug;$/;"	m	class:BeatInfo	typeref:struct:BeatInfo::struct_debug
+desc	signal.c	/^    char *desc;$/;"	m	struct:sigmapinfo	file:
+desc	wfdb.h	/^    char *desc;		\/* signal description *\/$/;"	m	struct:WFDB_siginfo
+device_range_mV	ecgdata.h	/^    double device_range_mV;$/;"	m	class:EcgData
+discard	configdialog.cpp	/^void ConfigDialog::discard()$/;"	f	class:ConfigDialog
+displayPoints	showsignal.h	/^	QVector<QPointF> displayPoints[CHANNEL_MAX];$/;"	m	class:ShowSignal
+display_extra	showsignal.h	/^	int display_extra;$/;"	m	class:ShowSignal
+doctorName	pages.h	/^    QLineEdit *doctorName;$/;"	m	class:GeneralPage
+dragEnterEvent	mainwindow.cpp	/^void MainWindow::dragEnterEvent(QDragEnterEvent *event)$/;"	f	class:MainWindow
+dragLeaveEvent	mainwindow.cpp	/^void MainWindow::dragLeaveEvent(QDragLeaveEvent *event)$/;"	f	class:MainWindow
+dragPosition	infobox.h	/^	QPoint dragPosition;$/;"	m	class:InfoBox
+draw_height	showsignal.h	/^	int draw_width, draw_height;$/;"	m	class:ShowSignal
+draw_width	showsignal.h	/^	int draw_width, draw_height;$/;"	m	class:ShowSignal
+draw_xpos	showsignal.h	/^	int draw_xpos, draw_ypos;$/;"	m	class:ShowSignal
+draw_ypos	showsignal.h	/^	int draw_xpos, draw_ypos;$/;"	m	class:ShowSignal
+dropEvent	mainwindow.cpp	/^void MainWindow::dropEvent(QDropEvent *event)$/;"	f	class:MainWindow
+dsbi	signal.c	/^static int dsbi;		\/* index to oldest sample in dsbuf (if < 0,$/;"	v	file:
+dsblen	signal.c	/^static unsigned dsblen;		\/* capacity of dsbuf, in samples *\/$/;"	v	file:
+dsbuf	signal.c	/^static WFDB_Sample *dsbuf;	\/* deskewing buffer *\/$/;"	v	file:
+ecgLine	pages.h	/^    QLineEdit *ecgLine;$/;"	m	class:EcgPage
+ecgPage	configdialog.h	/^    EcgPage* ecgPage;$/;"	m	class:ConfigDialog
+ecgType	pages.h	/^    QComboBox *ecgType;$/;"	m	class:UserPage
+ecgstr	annot.c	/^FSTRING ecgstr(int code)$/;"	f
+edf_bytes_in_header	ecgdata.h	/^    int edf_bytes_in_header;$/;"	m	class:EcgData
+edf_nr	ecgdata.h	/^    int edf_nr;$/;"	m	class:EcgData
+edf_ns	ecgdata.h	/^    int edf_ns;$/;"	m	class:EcgData
+edf_record_duration_secs	ecgdata.h	/^    float edf_record_duration_secs;$/;"	m	class:EcgData
+edf_samps_per_record	ecgdata.h	/^    int edf_samps_per_record;$/;"	m	class:EcgData
+edfheader	ecgdata.h	/^    QHash<QString,QString>	edfheader;$/;"	m	class:EcgData
+edfparse	signal.c	/^static int edfparse(WFDB_FILE *ifile)$/;"	f	file:
+err	wfdblib.h	/^  long err;$/;"	m	struct:netfile
+error_message	wfdbio.c	/^static char error_message[256];$/;"	v	file:
+error_print	wfdbio.c	/^static int error_print = 1;$/;"	v	file:
+extraInfo	beatinfo.h	/^		int32_t extraInfo[16];$/;"	m	struct:BeatInfo::struct_debug
+faxNo	pages.h	/^    QLineEdit *faxNo;$/;"	m	class:GeneralPage
+fd	wfdblib.h	/^  int fd;$/;"	m	struct:netfile
+ffreq	signal.c	/^static WFDB_Frequency ffreq;	\/* frame rate (frames\/second) *\/$/;"	v	file:
+file	annot.c	/^    WFDB_FILE *file;		\/* file pointer for input annotation file *\/$/;"	m	struct:iadata	file:
+file	annot.c	/^    WFDB_FILE *file;		\/* file pointer for output annotation file *\/$/;"	m	struct:oadata	file:
+fileEcgCache	ecgdata.h	/^    QTemporaryFile fileEcgCache[3];$/;"	m	class:EcgData
+file_name	ecgdata.h	/^    QString file_name;$/;"	m	class:EcgData
+findBeatNearPosition	showsignal.cpp	/^int ShowSignal::findBeatNearPosition( int samplePos, int direction )$/;"	f	class:ShowSignal
+findClosestDataPointToMousePos	showsignal.cpp	/^int ShowSignal::findClosestDataPointToMousePos( QPoint mousePt )$/;"	f	class:ShowSignal
+findMdiChild	mainwindow.cpp	/^QMdiSubWindow *MainWindow::findMdiChild(const QString &fileName)$/;"	f	class:MainWindow
+findsig	signal.c	/^int findsig(char *p)$/;"	f
+first_beat_found	showsignal.h	/^	long first_beat_found;$/;"	m	class:ShowSignal
+first_beat_showing	showsignal.cpp	/^long ShowSignal::first_beat_showing()$/;"	f	class:ShowSignal
+fmstimstr	signal.c	/^static char *fmstimstr(WFDB_Time t, WFDB_Frequency f)$/;"	f	file:
+fmt	wfdb.h	/^    int fmt;		\/* format (8, 16, etc.) *\/$/;"	m	struct:WFDB_siginfo
+fname	wfdb.h	/^    char *fname;	\/* filename of signal file *\/$/;"	m	struct:WFDB_siginfo
+focusInEvent	showsignal.cpp	/^void ShowSignal::focusInEvent( QFocusEvent *event )$/;"	f	class:ShowSignal
+focusOutEvent	showsignal.cpp	/^void ShowSignal::focusOutEvent( QFocusEvent *event )$/;"	f	class:ShowSignal
+fp	signal.c	/^    WFDB_FILE *fp;		\/* file pointer for an input signal group *\/$/;"	m	struct:igdata	file:
+fp	signal.c	/^    WFDB_FILE *fp;		\/* file pointer for output signal *\/$/;"	m	struct:ogdata	file:
+fp	wfdblib.h	/^  FILE *fp;$/;"	m	struct:WFDB_FILE
+framelen	signal.c	/^static unsigned framelen;	\/* total number of samples per frame *\/$/;"	v	file:
+from_ann	ann_map.c	/^uint8_t from_ann(uint8_t label)$/;"	f
+fstrtim	signal.c	/^static WFDB_Time fstrtim(char *string, WFDB_Frequency f)$/;"	f	file:
+ftimstr	signal.c	/^static char *ftimstr(WFDB_Time t, WFDB_Frequency f)$/;"	f	file:
+gain	signal.c	/^    double gain, scale, offset;$/;"	m	struct:sigmapinfo	file:
+gain	wfdb.h	/^    WFDB_Gain gain;	\/* gain (ADC units\/physical unit, 0: uncalibrated) *\/$/;"	m	struct:WFDB_siginfo
+gain_mm_per_mV	showsignal.h	/^	qreal gain_mm_per_mV;$/;"	m	class:ShowSignal
+generalPage	configdialog.h	/^    GeneralPage* generalPage;$/;"	m	class:ConfigDialog
+get	ecgdata.cpp	/^quint16 * EcgData::get( int channel_num, long start_time_samps, long duration_samps )$/;"	f	class:EcgData
+getBackgroundImage	infobox.cpp	/^QString InfoBox::getBackgroundImage()$/;"	f	class:InfoBox
+getComboEcgGainWidget	mainwindow.h	/^    QComboBox *getComboEcgGainWidget() { return comboEcgGain; };$/;"	f	class:MainWindow
+getComboViewTypeIndex	showsignal.h	/^    int getComboViewTypeIndex() { if ( comboViewType ) { return comboViewType->currentIndex(); }; return -1; };$/;"	f	class:ShowSignal
+getComboViewTypeWidget	showsignal.h	/^    QComboBox *getComboViewTypeWidget() { return comboViewType; };$/;"	f	class:ShowSignal
+get_ann_table	annot.c	/^static int get_ann_table(WFDB_Annotator i)$/;"	f	file:
+get_data_channel	ecgdata.h	/^    quint16 *get_data_channel( int channel_num ) { return chdata[channel_num]; }$/;"	f	class:EcgData
+getafreq	annot.c	/^FFREQUENCY getafreq(void)$/;"	f
+getann	annot.c	/^FINT getann(WFDB_Annotator n, WFDB_Annotation *annot)$/;"	f
+getbasecount	signal.c	/^FDOUBLE getbasecount(void)$/;"	f
+getcfreq	signal.c	/^FFREQUENCY getcfreq(void)$/;"	f
+getframe	signal.c	/^FINT getframe(WFDB_Sample *vector)$/;"	f
+getgvmode	signal.c	/^FINT getgvmode(void)$/;"	f
+getifreq	signal.c	/^FFREQUENCY getifreq(void)$/;"	f
+getinfo	signal.c	/^FSTRING getinfo(char *record)$/;"	f
+getseginfo	signal.c	/^FINT getseginfo(WFDB_Seginfo **sarray)$/;"	f
+getskewedframe	signal.c	/^static int getskewedframe(WFDB_Sample *vector)$/;"	f	file:
+getspf	signal.c	/^FINT getspf(void)$/;"	f
+getvec	signal.c	/^FINT getvec(WFDB_Sample *vector)$/;"	f
+getwfdb	wfdbio.c	/^FSTRING getwfdb(void)$/;"	f
+glbExeFileName	SironaHolterViewer.cpp	/^char *glbExeFileName;$/;"	v
+glb_bump_halfwidth	mainwindow.cpp	/^int glb_bump_halfwidth = 10;$/;"	v
+glb_bump_slopiness	mainwindow.cpp	/^int glb_bump_slopiness = 70;$/;"	v
+glb_mainwindow	mainwindow.cpp	/^MainWindow *glb_mainwindow = NULL;$/;"	v
+glb_version	SironaHolterViewer.cpp	/^QString glb_version = QString("$Rev:  ") + QString::number(SVN_REVISION);$/;"	v
+group	wfdb.h	/^    WFDB_Group group;	\/* signal group number *\/$/;"	m	struct:WFDB_siginfo
+gv0	signal.c	/^static WFDB_Sample *gv0, *gv1;$/;"	v	file:
+gv1	signal.c	/^static WFDB_Sample *gv0, *gv1;$/;"	v	file:
+gvc	signal.c	/^static int gvc;			\/* getvec sample-within-frame counter *\/$/;"	v	file:
+gvmode	signal.c	/^static int gvmode = DEFWFDBGVMODE;	\/* getvec mode *\/$/;"	v	file:
+gvtime	signal.c	/^static WFDB_Time rgvtime, gvtime;$/;"	v	file:
+hheader	signal.c	/^static WFDB_FILE *hheader;	\/* file pointer for header file *\/$/;"	v	file:
+hideComboViewType	showsignal.h	/^    void hideComboViewType() { if ( comboViewTypeAction ) { comboViewTypeAction->setVisible(false); } };$/;"	f	class:ShowSignal
+hideEvent	showsignal.cpp	/^void ShowSignal::hideEvent( QHideEvent * event )$/;"	f	class:ShowSignal
+high	wfdb.h	/^    double high;	\/* high level of calibration pulse in physical units *\/$/;"	m	struct:WFDB_calinfo
+hospitalName	pages.h	/^    QLineEdit *hospitalName;$/;"	m	class:GeneralPage
+hsd	signal.c	/^} **hsd;$/;"	v	typeref:struct:hsdata	file:
+hsdata	signal.c	/^static struct hsdata {$/;"	s	file:
+hsdfree	signal.c	/^static void hsdfree(void)$/;"	f	file:
+iad	annot.c	/^} **iad;$/;"	v	typeref:struct:iadata	file:
+iadata	annot.c	/^static struct iadata {$/;"	s	file:
+iannclose	annot.c	/^FVOID iannclose(WFDB_Annotator n)$/;"	f
+iannsettime	annot.c	/^FINT iannsettime(WFDB_Time t)$/;"	f
+ibsize	signal.c	/^static int ibsize;		\/* default input buffer size *\/$/;"	v	file:
+ifreq	signal.c	/^static WFDB_Frequency ifreq;	\/* samples\/second\/signal returned by getvec *\/$/;"	v	file:
+igd	signal.c	/^} **igd;$/;"	v	typeref:struct:igdata	file:
+igdata	signal.c	/^static struct igdata {		\/* shared by all signals in a group (file) *\/$/;"	s	file:
+in_msrec	signal.c	/^static int in_msrec;		\/* current input record is: 0: a single-segment$/;"	v	file:
+index	annot.c	/^    unsigned index;		\/* next available position in auxstr *\/$/;"	m	struct:iadata	file:
+index	signal.c	/^    int index;$/;"	m	struct:sigmapinfo	file:
+info	annot.c	/^    WFDB_Anninfo info;		\/* output annotator information *\/$/;"	m	struct:oadata	file:
+info	annot.c	/^    WFDB_Anninfo info;	   	\/* input annotator information *\/$/;"	m	struct:iadata	file:
+info	signal.c	/^    WFDB_Siginfo info;		\/* info about signal from header *\/$/;"	m	struct:hsdata	file:
+info	signal.c	/^    WFDB_Siginfo info;		\/* input signal information *\/$/;"	m	struct:isdata	file:
+info	signal.c	/^    WFDB_Siginfo info;		\/* output signal information *\/$/;"	m	struct:osdata	file:
+initval	wfdb.h	/^    WFDB_Sample initval; 	\/* initial value (that of sample number 0) *\/$/;"	m	struct:WFDB_siginfo
+irec	wfdbio.c	/^static char irec[WFDB_MAXRNL+1]; \/* current record name, set by wfdb_setirec *\/$/;"	v	file:
+isDragging	infobox.h	/^	bool isDragging;$/;"	m	class:InfoBox
+isFalsePositive	beatinfo.h	/^	int	isFalsePositive;$/;"	m	class:BeatInfo
+isUntitled	showsignal.h	/^    bool isUntitled;	\/\/ used for MDI$/;"	m	class:ShowSignal
+isVisibleChan	mainwindow.h	/^    bool isVisibleChan[3]; \/* DEBUG: this really should be moved into the view; but I just need something quick for now. *\/$/;"	m	class:MainWindow
+is_printing	showsignal.h	/^	bool is_printing;$/;"	m	class:ShowSignal
+is_saving_data	showsignal.h	/^	bool is_saving_data;$/;"	m	class:ShowSignal
+isann	ecgmap.h	44;"	d
+isd	signal.c	/^} **isd;$/;"	v	typeref:struct:isdata	file:
+isdata	signal.c	/^static struct isdata {		\/* unique for each input signal *\/$/;"	s	file:
+isedf	signal.c	/^static int isedf;		\/* if non-zero, record is stored as EDF\/EDF+ *\/$/;"	v	file:
+isfmt	signal.c	/^static int isfmt(int f)$/;"	f	file:
+isgsetframe	signal.c	/^static int isgsetframe(WFDB_Group g, WFDB_Time t)$/;"	f	file:
+isgsettime	signal.c	/^FINT isgsettime(WFDB_Group g, WFDB_Time t)$/;"	f
+isigclose	signal.c	/^static void isigclose(void)$/;"	f	file:
+isigopen	signal.c	/^FINT isigopen(char *record, WFDB_Siginfo *siarray, int nsig)$/;"	f
+isigsettime	signal.c	/^FINT isigsettime(WFDB_Time t)$/;"	f
+ispfmax	signal.c	/^static unsigned ispfmax;	\/* max number of samples of any open signal$/;"	v	file:
+isqrs	ecgmap.h	49;"	d
+istime	signal.c	/^static WFDB_Time istime;	\/* time of next input sample *\/$/;"	v	file:
+iterations	mainwindow.cpp	/^const int iterations = 20;$/;"	v
+keyPressEvent	mainwindow.cpp	/^void MainWindow::keyPressEvent( QKeyEvent * event )$/;"	f	class:MainWindow
+keyPressEvent	showsignal.cpp	/^void ShowSignal::keyPressEvent( QKeyEvent * event )$/;"	f	class:ShowSignal
+lastPos	showsignal.h	/^    QPoint lastPos;$/;"	m	class:ShowSignal
+lblPaceBeatsPerMinute	mainwindow.h	/^	QLabel *lblPaceBeatsPerMinute;$/;"	m	class:MainWindow
+load_annotation_file	showsignal.cpp	/^int ShowSignal::load_annotation_file( char *recordName, char *ext )$/;"	f	class:ShowSignal
+low	wfdb.h	/^    double low;		\/* low level of calibration pulse in physical units *\/$/;"	m	struct:WFDB_calinfo
+m_beats	showsignal.h	/^	QList<BeatInfo> m_beats;$/;"	m	class:ShowSignal
+m_ecgdata	showsignal.h	/^	EcgData *m_ecgdata;$/;"	m	class:ShowSignal
+m_test_antialiasing	showsignal.h	/^	bool	m_test_antialiasing;$/;"	m	class:ShowSignal
+m_testspeed	showsignal.h	/^	bool	m_testspeed;$/;"	m	class:ShowSignal
+m_time_ends	showsignal.h	/^	long	m_time_ends;$/;"	m	class:ShowSignal
+m_timer	showsignal.h	/^    QTimer		*m_timer;$/;"	m	class:ShowSignal
+m_zoom_x	showsignal.h	/^	float m_zoom_x;$/;"	m	class:ShowSignal
+m_zoom_y	showsignal.h	/^	float m_zoom_y;$/;"	m	class:ShowSignal
+main	SironaHolterViewer.cpp	/^int main(int argc, char *argv[])$/;"	f
+make_vsd	signal.c	/^static int make_vsd(void)$/;"	f	file:
+mamap	ecgmap.h	111;"	d
+map1	ecgmap.h	62;"	d
+map2	ecgmap.h	80;"	d
+maxhsig	signal.c	/^static unsigned maxhsig;	\/* # of hsdata structures pointed to by hsd *\/$/;"	v	file:
+maxiann	annot.c	/^static unsigned maxiann;	\/* max allowed number of input annotators *\/$/;"	v	file:
+maxigroup	signal.c	/^static unsigned maxigroup;	\/* max number of input signal groups *\/$/;"	v	file:
+maxisig	signal.c	/^static unsigned maxisig;	\/* max number of input signals *\/$/;"	v	file:
+maxoann	annot.c	/^static unsigned maxoann;	\/* max allowed number of output annotators *\/$/;"	v	file:
+maxogroup	signal.c	/^static unsigned maxogroup;	\/* max number of output signal groups *\/$/;"	v	file:
+maxosig	signal.c	/^static unsigned maxosig;	\/* max number of output signals *\/$/;"	v	file:
+maxspf	signal.c	/^static unsigned maxspf;		\/* max allowed value for ispfmax *\/$/;"	v	file:
+maxvsig	signal.c	/^static int need_sigmap, maxvsig, nvsig, tspf;$/;"	v	file:
+mdiArea	mainwindow.h	/^    QMdiArea *mdiArea;$/;"	m	class:MainWindow
+mdiChildActivated	mainwindow.cpp	/^void MainWindow::mdiChildActivated( QMdiSubWindow *mdiChild )$/;"	f	class:MainWindow
+middle_beat_showing	showsignal.cpp	/^long ShowSignal::middle_beat_showing()$/;"	f	class:ShowSignal
+min	showsignal.h	55;"	d
+minimumSizeHint	showsignal.cpp	/^QSize ShowSignal::minimumSizeHint() const$/;"	f	class:ShowSignal
+mnticks	signal.c	/^static long mticks, nticks, mnticks;$/;"	v	file:
+mode	wfdblib.h	/^  int mode;$/;"	m	struct:netfile
+modified	annot.c	/^static char modified[ACMAX+1];	\/* modified[i] is non-zero if setannstr() or$/;"	v	file:
+mouseDoubleClickEvent	infobox.cpp	/^void InfoBox::mouseDoubleClickEvent( QMouseEvent * e )$/;"	f	class:InfoBox
+mouseMoveEvent	infobox.cpp	/^void InfoBox::mouseMoveEvent(QMouseEvent * event)$/;"	f	class:InfoBox
+mouseMoveEvent	showsignal.cpp	/^void ShowSignal::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:ShowSignal
+mousePressEvent	infobox.cpp	/^void InfoBox::mousePressEvent(QMouseEvent * event)$/;"	f	class:InfoBox
+mousePressEvent	showsignal.cpp	/^void ShowSignal::mousePressEvent(QMouseEvent *event)$/;"	f	class:ShowSignal
+moveLeft	mainwindow.cpp	/^void MainWindow::moveLeft()$/;"	f	class:MainWindow
+moveLeft	showsignal.cpp	/^void ShowSignal::moveLeft()$/;"	f	class:ShowSignal
+moveRight	mainwindow.cpp	/^void MainWindow::moveRight()$/;"	f	class:MainWindow
+moveRight	showsignal.cpp	/^void ShowSignal::moveRight()$/;"	f	class:ShowSignal
+msbdate	signal.c	/^static WFDB_Date msbdate;	\/* base date for multi-segment record *\/$/;"	v	file:
+msbtime	signal.c	/^static long msbtime;		\/* base time for multi-segment record *\/$/;"	v	file:
+msnsamples	signal.c	/^static WFDB_Time msnsamples;	\/* duration of multi-segment record *\/$/;"	v	file:
+mstimstr	signal.c	/^FSTRING mstimstr(WFDB_Time t)$/;"	f
+mticks	signal.c	/^static long mticks, nticks, mnticks;$/;"	v	file:
+muvadu	signal.c	/^FSAMPLE muvadu(WFDB_Signal s, int v)$/;"	f
+name	wfdb.h	/^    char *name;		\/* annotator name *\/$/;"	m	struct:WFDB_anninfo
+need_sigmap	signal.c	/^static int need_sigmap, maxvsig, nvsig, tspf;$/;"	v	file:
+netfile	wfdblib.h	/^struct netfile {$/;"	s
+netfile	wfdblib.h	/^typedef struct netfile netfile;$/;"	t	typeref:struct:netfile
+netfp	wfdblib.h	/^  struct netfile *netfp;$/;"	m	struct:WFDB_FILE	typeref:struct:WFDB_FILE::netfile
+newFile	mainwindow.cpp	/^void MainWindow::newFile()$/;"	f	class:MainWindow
+newFile	showsignal.cpp	/^void ShowSignal::newFile()$/;"	f	class:ShowSignal
+newheader	signal.c	/^FINT newheader(char *record)$/;"	f
+next	wfdbio.c	/^    struct wfdb_path_component *next, *prev;$/;"	m	struct:wfdb_path_component	typeref:struct:wfdb_path_component::wfdb_path_component	file:
+next_beat_of_AFRelated	showsignal.cpp	/^int ShowSignal::next_beat_of_AFRelated( int beatIndex )$/;"	f	class:ShowSignal
+next_beat_of_a_type	showsignal.cpp	/^int ShowSignal::next_beat_of_a_type( int beatIndex, int beatType )$/;"	f	class:ShowSignal
+nf_clearerr	wfdbio.c	/^static void nf_clearerr(netfile *nf)$/;"	f	file:
+nf_delete	wfdbio.c	/^static void nf_delete(netfile *nf)$/;"	f	file:
+nf_eof	wfdbio.c	/^static int nf_eof(netfile *nf)$/;"	f	file:
+nf_fclose	wfdbio.c	/^static int nf_fclose(netfile* nf)$/;"	f	file:
+nf_feof	wfdbio.c	/^static int nf_feof(netfile *nf)$/;"	f	file:
+nf_ferror	wfdbio.c	/^static int nf_ferror(netfile *nf)$/;"	f	file:
+nf_fflush	wfdbio.c	/^static int nf_fflush(netfile *nf)$/;"	f	file:
+nf_fgetc	wfdbio.c	/^static int nf_fgetc(netfile *nf)$/;"	f	file:
+nf_fgets	wfdbio.c	/^static char* nf_fgets(char *s, int size, netfile *nf)$/;"	f	file:
+nf_fopen	wfdbio.c	/^static netfile* nf_fopen(const char *url, const char *mode)$/;"	f	file:
+nf_fread	wfdbio.c	/^static size_t nf_fread(void *ptr, size_t size, size_t nmemb, netfile *nf)$/;"	f	file:
+nf_fseek	wfdbio.c	/^static int nf_fseek(netfile* nf, long offset, int whence)$/;"	f	file:
+nf_ftell	wfdbio.c	/^static long nf_ftell(netfile *nf)$/;"	f	file:
+nf_fwrite	wfdbio.c	/^static size_t nf_fwrite(const void *ptr, size_t size, size_t nmemb,netfile *nf)$/;"	f	file:
+nf_get_range	wfdbio.c	/^static long nf_get_range(netfile* nf, long startb, long len, char *rbuf)$/;"	f	file:
+nf_new	wfdbio.c	/^static netfile *nf_new(const char* url)$/;"	f	file:
+nf_open_files	wfdbio.c	/^static int nf_open_files = 0;		\/* number of open netfiles *\/$/;"	v	file:
+nf_putc	wfdbio.c	/^static int nf_putc(int c, netfile *nf)$/;"	f	file:
+nf_vfprintf	wfdbio.c	/^static int nf_vfprintf(netfile *nf, const char *format, va_list ap)$/;"	f	file:
+niaf	annot.c	/^static unsigned niaf;		\/* number of open input annotators *\/$/;"	v	file:
+nigroup	signal.c	/^static unsigned nigroup;	\/* number of open input signal groups *\/$/;"	v	file:
+nimax	signal.c	/^static int nimax;	\/* number of info string pointers allocated *\/$/;"	v	file:
+ninfo	signal.c	/^static int ninfo;	\/* number of info strings read *\/$/;"	v	file:
+nisig	signal.c	/^static unsigned nisig;		\/* number of open input signals *\/$/;"	v	file:
+noaf	annot.c	/^static unsigned noaf;		\/* number of open output annotators *\/$/;"	v	file:
+nogroup	signal.c	/^static unsigned nogroup;	\/* number of open output signal groups *\/$/;"	v	file:
+nosig	signal.c	/^static unsigned nosig;		\/* number of open output signals *\/$/;"	v	file:
+nsamp	wfdb.h	/^    WFDB_Time nsamp;		   \/* number of samples in segment *\/$/;"	m	struct:WFDB_seginfo
+nsamp	wfdb.h	/^    long nsamp;		\/* number of samples (0: unspecified) *\/$/;"	m	struct:WFDB_siginfo
+nsamples	signal.c	/^static WFDB_Time nsamples;	\/* duration of signals (in samples) *\/$/;"	v	file:
+nticks	signal.c	/^static long mticks, nticks, mnticks;$/;"	v	file:
+num	wfdb.h	/^    signed char num;	\/* annotator number *\/$/;"	m	struct:WFDB_ann
+nvsig	signal.c	/^static int need_sigmap, maxvsig, nvsig, tspf;$/;"	v	file:
+oad	annot.c	/^} **oad;$/;"	v	typeref:struct:oadata	file:
+oadata	annot.c	/^static struct oadata {$/;"	s	file:
+oafreq	annot.c	/^static WFDB_Frequency oafreq;	\/* time resolution in ticks\/sec for newly-$/;"	v	file:
+oannclose	annot.c	/^FVOID oannclose(WFDB_Annotator n)$/;"	f
+object	showsignal.h	/^	uint object;$/;"	m	class:ShowSignal
+obsize	signal.c	/^static int obsize;		\/* default output buffer size *\/$/;"	v	file:
+offset	signal.c	/^    double gain, scale, offset;$/;"	m	struct:sigmapinfo	file:
+ogd	signal.c	/^} **ogd;$/;"	v	typeref:struct:ogdata	file:
+ogdata	signal.c	/^static struct ogdata {		\/* shared by all signals in a group (file) *\/$/;"	s	file:
+oheader	signal.c	/^static WFDB_FILE *oheader;	\/* file pointer for output header file *\/$/;"	v	file:
+on_actionTest1_triggered	mainwindow.cpp	/^void MainWindow::on_actionTest1_triggered()$/;"	f	class:MainWindow
+on_actionTest2_triggered	mainwindow.cpp	/^void MainWindow::on_actionTest2_triggered()$/;"	f	class:MainWindow
+on_actionTest3_triggered	mainwindow.cpp	/^void MainWindow::on_actionTest3_triggered()$/;"	f	class:MainWindow
+open	mainwindow.cpp	/^void MainWindow::open()$/;"	f	class:MainWindow
+openEcgFile	mainwindow.cpp	/^void MainWindow::openEcgFile( QString fileName )$/;"	f	class:MainWindow
+openMruFile	mainwindow.cpp	/^void MainWindow::openMruFile( int mruFileIndex )$/;"	f	class:MainWindow
+operator <	beatinfo.h	/^	bool operator < ( const BeatInfo &other ) const$/;"	f	class:BeatInfo
+operator =	beatinfo.h	/^	BeatInfo &operator =( const BeatInfo &other )$/;"	f	class:BeatInfo
+operator ==	beatinfo.h	/^	bool operator == ( const BeatInfo &other ) const$/;"	f	class:BeatInfo
+osd	signal.c	/^} **osd;$/;"	v	typeref:struct:osdata	file:
+osdata	signal.c	/^static struct osdata {		\/* unique for each output signal *\/$/;"	s	file:
+osigclose	signal.c	/^static void osigclose(void)$/;"	f	file:
+osigfopen	signal.c	/^FINT osigfopen(WFDB_Siginfo *siarray, unsigned int nsig)$/;"	f
+osigopen	signal.c	/^FINT osigopen(char *record, WFDB_Siginfo *siarray, unsigned int nsig)$/;"	f
+ostime	signal.c	/^static WFDB_Time ostime;	\/* time of next output sample *\/$/;"	v	file:
+out_of_order	annot.c	/^    char out_of_order;		\/* if >0, one or more annotations written by$/;"	m	struct:oadata	file:
+outinfo	signal.c	/^static WFDB_FILE *outinfo;	\/* file pointer for output info file *\/$/;"	v	file:
+ovec	signal.c	/^static WFDB_Sample *ovec;$/;"	v	file:
+p_wfdb	wfdbio.c	/^static char *p_wfdb, *p_wfdbcal, *p_wfdbannsort, *p_wfdbgvmode;$/;"	v	file:
+p_wfdbannsort	wfdbio.c	/^static char *p_wfdb, *p_wfdbcal, *p_wfdbannsort, *p_wfdbgvmode;$/;"	v	file:
+p_wfdbcal	wfdbio.c	/^static char *p_wfdb, *p_wfdbcal, *p_wfdbannsort, *p_wfdbgvmode;$/;"	v	file:
+p_wfdbgvmode	wfdbio.c	/^static char *p_wfdb, *p_wfdbcal, *p_wfdbannsort, *p_wfdbgvmode;$/;"	v	file:
+paceBeatsPerMinute	showsignal.h	/^	QHash<int,int> paceBeatsPerMinute;$/;"	m	class:ShowSignal
+pacerPosition	showsignal.h	/^	QVector<quint32> pacerPosition;$/;"	m	class:ShowSignal
+page_size	wfdbio.c	/^static long page_size = NF_PAGE_SIZE;	\/* bytes per range request (0: disable$/;"	v	file:
+pagesWidget	configdialog.h	/^    QStackedWidget *pagesWidget;$/;"	m	class:ConfigDialog
+paintEvent	infobox.cpp	/^void InfoBox::paintEvent(QPaintEvent * event)$/;"	f	class:InfoBox
+paintEvent	showsignal.cpp	/^void ShowSignal::paintEvent( QPaintEvent * event )$/;"	f	class:ShowSignal
+pann	annot.c	/^    WFDB_Annotation pann; 	\/* pushed-back annotation from ungetann *\/$/;"	m	struct:iadata	file:
+parse_header	ecgdata.cpp	/^QString EcgData::parse_header( QString filename )$/;"	f	class:EcgData
+passwords	wfdbio.c	/^static char **passwords;$/;"	v	file:
+paste	mainwindow.cpp	/^void MainWindow::paste()$/;"	f	class:MainWindow
+paste	showsignal.h	/^	void paste() { return; }$/;"	f	class:ShowSignal
+pdays	signal.c	/^static WFDB_Date pdays = -1;$/;"	v	file:
+phoneNo	pages.h	/^    QLineEdit *phoneNo;$/;"	m	class:GeneralPage
+physadu	signal.c	/^FSAMPLE physadu(WFDB_Signal s, double v)$/;"	f
+pinfo	signal.c	/^static char **pinfo;	\/* array of info string pointers *\/$/;"	v	file:
+pixmap	infobox.h	/^	QPixmap * pixmap;$/;"	m	class:InfoBox
+pos	wfdblib.h	/^  long pos;$/;"	m	struct:netfile
+pos_samps	beatinfo.h	/^	int32_t pos_samps;$/;"	m	class:BeatInfo
+prefix	wfdbio.c	/^    char *prefix;$/;"	m	struct:wfdb_path_component	file:
+prev	wfdbio.c	/^    struct wfdb_path_component *next, *prev;$/;"	m	struct:wfdb_path_component	typeref:struct:wfdb_path_component::	file:
+prev_beat_of_AFRelated	showsignal.cpp	/^int ShowSignal::prev_beat_of_AFRelated( int beatIndex )$/;"	f	class:ShowSignal
+prev_beat_of_a_type	showsignal.cpp	/^int ShowSignal::prev_beat_of_a_type( int beatIndex, int beatType )$/;"	f	class:ShowSignal
+previous_beat	showsignal.cpp	/^BeatInfo *ShowSignal::previous_beat( int beatIndex )$/;"	f	class:ShowSignal
+print	mainwindow.cpp	/^void MainWindow::print()$/;"	f	class:MainWindow
+print	showsignal.cpp	/^void ShowSignal::print()$/;"	f	class:ShowSignal
+printPDF	mainwindow.cpp	/^void MainWindow::printPDF()$/;"	f	class:MainWindow
+printPDF	showsignal.cpp	/^void ShowSignal::printPDF()$/;"	f	class:ShowSignal
+printRender	showsignal.cpp	/^void ShowSignal::printRender( QPrinter *printer )$/;"	f	class:ShowSignal
+printRenderStrip	showsignal.cpp	/^void ShowSignal::printRenderStrip( QPrinter *printer )$/;"	f	class:ShowSignal
+printStrip	mainwindow.cpp	/^void MainWindow::printStrip()$/;"	f	class:MainWindow
+print_strip	showsignal.cpp	/^void ShowSignal::print_strip()$/;"	f	class:ShowSignal
+printf_aligned	utils.cpp	/^void printf_aligned( QPainter& dc, int aligned, int x, int y, int fontsize_pts, QString fmt, ... )$/;"	f
+prolog_bytes	signal.c	/^static long prolog_bytes;	\/* length of prolog, as told to wfdbsetstart$/;"	v	file:
+ptmul	annot.c	/^    double tmul, ptmul;		\/* tmul * annotation time = sample count *\/$/;"	m	struct:iadata	file:
+putAnnotationString	beatinfo.h	/^	void putAnnotationString( char *annoAux )$/;"	f	class:BeatInfo
+put_ann_table	annot.c	/^static int put_ann_table(WFDB_Annotator i)$/;"	f	file:
+putann	annot.c	/^FINT putann(WFDB_Annotator n, WFDB_Annotation *annot)$/;"	f
+putinfo	signal.c	/^FINT putinfo(char *s)$/;"	f
+putvec	signal.c	/^FINT putvec(WFDB_Sample *vector)$/;"	f
+r16	signal.c	/^static int r16(struct igdata *g)$/;"	f	file:
+r16	signal.c	1321;"	d	file:
+r160	signal.c	1399;"	d	file:
+r212	signal.c	/^static int r212(struct igdata *g)$/;"	f	file:
+r24	signal.c	/^static int r24(struct igdata *g)$/;"	f	file:
+r24	signal.c	1325;"	d	file:
+r310	signal.c	/^static int r310(struct igdata *g)$/;"	f	file:
+r311	signal.c	/^static int r311(struct igdata *g)$/;"	f	file:
+r32	signal.c	/^static int r32(struct igdata *g)$/;"	f	file:
+r32	signal.c	1327;"	d	file:
+r61	signal.c	/^static int r61(struct igdata *g)$/;"	f	file:
+r61	signal.c	1323;"	d	file:
+r8	signal.c	1306;"	d	file:
+r80	signal.c	1396;"	d	file:
+range_per_sample	ecgdata.h	/^    double range_per_sample;$/;"	m	class:EcgData
+readECGSettings	pages.cpp	/^void EcgPage::readECGSettings()$/;"	f	class:EcgPage
+readGeneralSettings	pages.cpp	/^void GeneralPage::readGeneralSettings()$/;"	f	class:GeneralPage
+readSettings	mainwindow.cpp	/^void MainWindow::readSettings()$/;"	f	class:MainWindow
+readVisualSettings	pages.cpp	/^void VisualizationPage::readVisualSettings()$/;"	f	class:VisualizationPage
+readheader	signal.c	/^static int readheader(const char *record)$/;"	f	file:
+receiveData	mainwindow.cpp	/^void MainWindow::receiveData()$/;"	f	class:MainWindow
+recname	wfdb.h	/^    char recname[WFDB_MAXRNL+1];   \/* segment name *\/$/;"	m	struct:WFDB_seginfo
+resetwfdb	wfdbio.c	/^FVOID resetwfdb(void)$/;"	f
+resizeEvent	infobox.cpp	/^void InfoBox::resizeEvent(QResizeEvent * \/* event *\/ )$/;"	f	class:InfoBox
+resizeEvent	mainwindow.cpp	/^void MainWindow::resizeEvent( QResizeEvent * event )$/;"	f	class:MainWindow
+resizeEvent	showsignal.cpp	/^void ShowSignal::resizeEvent( QResizeEvent * event )$/;"	f	class:ShowSignal
+rgetvec	signal.c	/^static int rgetvec(WFDB_Sample *vector)$/;"	f	file:
+rgvstat	signal.c	/^static int rgvstat;$/;"	v	file:
+rgvtime	signal.c	/^static WFDB_Time rgvtime, gvtime;$/;"	v	file:
+rname	annot.c	/^    char *rname;		\/* record with which annotator is associated *\/$/;"	m	struct:oadata	file:
+ror8	ecgdata.cpp	/^static inline  unsigned char ror8( unsigned char word, unsigned int shift)$/;"	f	file:
+run	mainwindow.cpp	/^void run()$/;"	f
+samp	signal.c	/^    WFDB_Sample samp;		\/* most recent sample read *\/$/;"	m	struct:isdata	file:
+samp	signal.c	/^    WFDB_Sample samp;		\/* most recent sample written *\/$/;"	m	struct:osdata	file:
+samp0	wfdb.h	/^    WFDB_Time samp0;		   \/* sample number of first sample *\/$/;"	m	struct:WFDB_seginfo
+sampfreq	signal.c	/^FFREQUENCY sampfreq(char *record)$/;"	f
+sample	signal.c	/^FSAMPLE sample(WFDB_Signal s, WFDB_Time t)$/;"	f
+sample_count	ecgdata.cpp	/^long EcgData::sample_count()$/;"	f	class:EcgData
+sample_valid	signal.c	/^FINT sample_valid(void)$/;"	f
+sample_vflag	signal.c	/^static int sample_vflag;	\/* if non-zero, last value returned by sample()$/;"	v	file:
+samps_per_chan_per_sec	ecgdata.h	/^    int samps_per_chan_per_sec;$/;"	m	class:EcgData
+save	configdialog.cpp	/^void ConfigDialog::save()$/;"	f	class:ConfigDialog
+save	mainwindow.cpp	/^void MainWindow::save()$/;"	f	class:MainWindow
+save	showsignal.cpp	/^bool ShowSignal::save( QString fileName )$/;"	f	class:ShowSignal
+saveAs	mainwindow.cpp	/^void MainWindow::saveAs()$/;"	f	class:MainWindow
+saveAs	showsignal.cpp	/^bool ShowSignal::saveAs()$/;"	f	class:ShowSignal
+saveECGSettings	pages.cpp	/^void EcgPage::saveECGSettings()$/;"	f	class:EcgPage
+saveFile	showsignal.h	/^    bool saveFile(const QString &fileName) { Q_UNUSED(fileName);return true; }$/;"	f	class:ShowSignal
+saveGeneralSettings	pages.cpp	/^void GeneralPage::saveGeneralSettings()$/;"	f	class:GeneralPage
+saveVisualSettings	pages.cpp	/^void VisualizationPage::saveVisualSettings()$/;"	f	class:VisualizationPage
+sbuf	signal.c	/^WFDB_Sample *sbuf = NULL;	\/* buffer used by sample() *\/$/;"	v
+scale	signal.c	/^    double gain, scale, offset;$/;"	m	struct:sigmapinfo	file:
+scale	wfdb.h	/^    double scale;	\/* customary plotting scale (physical units per cm) *\/$/;"	m	struct:WFDB_calinfo
+seek	signal.c	/^    char seek;			\/* 0: do not seek on file, 1: seeks permitted *\/$/;"	m	struct:igdata	file:
+segarray	signal.c	/^static WFDB_Seginfo *segarray, *segp, *segend;$/;"	v	file:
+segend	signal.c	/^static WFDB_Seginfo *segarray, *segp, *segend;$/;"	v	file:
+segments	signal.c	/^static int segments;		\/* number of segments found by readheader() *\/$/;"	v	file:
+segp	signal.c	/^static WFDB_Seginfo *segarray, *segp, *segend;$/;"	v	file:
+selectedLevel	pages.cpp	/^int UserPage::selectedLevel()$/;"	f	class:UserPage
+selectedType	pages.cpp	/^int UserPage::selectedType()$/;"	f	class:UserPage
+seqno	annot.c	/^    int seqno;			\/* annotation serial number (AHA format only)*\/$/;"	m	struct:oadata	file:
+setActiveSubWindow	mainwindow.cpp	/^void MainWindow::setActiveSubWindow(QWidget *window)$/;"	f	class:MainWindow
+setComboViewType	showsignal.h	/^    void setComboViewType( int theIndex ) { if ( comboViewType ) { comboViewType->setCurrentIndex(theIndex); } };$/;"	f	class:ShowSignal
+setComboViewTypeAction	showsignal.h	/^    void setComboViewTypeAction( QAction *act ) { comboViewTypeAction = act; };$/;"	f	class:ShowSignal
+setFocusOnActiveWindow	mainwindow.cpp	/^void MainWindow::setFocusOnActiveWindow()$/;"	f	class:MainWindow
+setViewType	showsignal.cpp	/^void ShowSignal::setViewType( int newViewType )$/;"	f	class:ShowSignal
+setafreq	annot.c	/^FVOID setafreq(WFDB_Frequency f)$/;"	f
+setanndesc	annot.c	/^FINT setanndesc(int code, char *string)$/;"	f
+setannpos	ecgmap.h	141;"	d
+setannstr	annot.c	/^FINT setannstr(int code, char *string)$/;"	f
+setbasecount	signal.c	/^FVOID setbasecount(double counter)$/;"	f
+setbasetime	signal.c	/^FINT setbasetime(char *string)$/;"	f
+setcfreq	signal.c	/^FVOID setcfreq(WFDB_Frequency freq)$/;"	f
+setecgstr	annot.c	/^FINT setecgstr(int code, char *string)$/;"	f
+setgvmode	signal.c	/^FVOID setgvmode(int mode)$/;"	f
+setheader	signal.c	/^FINT setheader(char *record, WFDB_Siginfo *siarray, unsigned int nsig)$/;"	f
+setibsize	signal.c	/^FINT setibsize(int n)$/;"	f
+setifreq	signal.c	/^FINT setifreq(WFDB_Frequency f)$/;"	f
+setinfo	signal.c	/^FINT setinfo(char *record)$/;"	f
+setisqrs	ecgmap.h	50;"	d
+setmap1	ecgmap.h	63;"	d
+setmap2	ecgmap.h	81;"	d
+setmsheader	signal.c	/^FINT setmsheader(char *record, char **segment_name, unsigned int nsegments)$/;"	f
+setobsize	signal.c	/^FINT setobsize(int n)$/;"	f
+setsampfreq	signal.c	/^FINT setsampfreq(WFDB_Frequency freq)$/;"	f
+setwfdb	wfdbio.c	/^FVOID setwfdb(char *p)$/;"	f
+sfreq	signal.c	/^static WFDB_Frequency sfreq;	\/* samples\/second\/signal read by getvec *\/$/;"	v	file:
+showComboViewType	showsignal.h	/^    void showComboViewType() { if ( comboViewTypeAction ) { comboViewTypeAction->setVisible(true); } };$/;"	f	class:ShowSignal
+showEvent	showsignal.cpp	/^void ShowSignal::showEvent( QShowEvent * event )$/;"	f	class:ShowSignal
+show_splash	SironaHolterViewer.cpp	/^void show_splash()$/;"	f
+sigmap	signal.c	/^static int sigmap(WFDB_Sample *vector)$/;"	f	file:
+sigmap_cleanup	signal.c	/^static void sigmap_cleanup(void)$/;"	f	file:
+sigmap_init	signal.c	/^static int sigmap_init(void)$/;"	f	file:
+sigmapinfo	signal.c	/^static struct sigmapinfo {$/;"	s	file:
+signalMapperMruFiles	mainwindow.h	/^    QSignalMapper *signalMapperMruFiles;$/;"	m	class:MainWindow
+signal_format_specifier	ecgdata.h	/^    int signal_format_specifier;$/;"	m	class:EcgData
+signed	wfdb.h	408;"	d
+signed	wfdb.h	67;"	d
+sigtype	wfdb.h	/^    char *sigtype;	\/* signal type *\/$/;"	m	struct:WFDB_calinfo
+size	ecgdata.h	/^    ulong size() { return datalen_secs * samps_per_chan_per_sec; }	\/* return samples per channel *\/$/;"	f	class:EcgData
+size	wfdbio.c	/^    long size, buffer_size;$/;"	m	struct:chunk	file:
+sizeHint	showsignal.cpp	/^QSize ShowSignal::sizeHint() const$/;"	f	class:ShowSignal
+skew	signal.c	/^    int skew;			\/* intersignal skew (in frames) *\/$/;"	m	struct:hsdata	file:
+skew	signal.c	/^    int skew;			\/* intersignal skew (in frames) *\/$/;"	m	struct:isdata	file:
+skew	signal.c	/^    int skew;			\/* skew to be written by setheader() *\/$/;"	m	struct:osdata	file:
+skewmax	signal.c	/^static unsigned skewmax;	\/* max skew (frames) between any 2 signals *\/$/;"	v	file:
+smi	signal.c	/^} *smi;$/;"	v	typeref:struct:sigmapinfo	file:
+smooth_advance	showsignal.cpp	/^void ShowSignal::smooth_advance()$/;"	f	class:ShowSignal
+spf	signal.c	/^    int spf;$/;"	m	struct:sigmapinfo	file:
+spf	wfdb.h	/^    int spf;		\/* samples per frame (>1 for oversampled signals) *\/$/;"	m	struct:WFDB_siginfo
+spin	mainwindow.cpp	/^void spin( int &iteration )$/;"	f
+spinBox	pages.h	/^    QSpinBox *spinBox;$/;"	m	class:VisualizationPage
+spr1	wfdbio.c	845;"	d	file:
+spr2	wfdbio.c	849;"	d	file:
+spr2	wfdbio.c	853;"	d	file:
+start	signal.c	/^    long start;			\/* byte offset to be written by setheader() *\/$/;"	m	struct:ogdata	file:
+start	signal.c	/^    long start;			\/* signal file byte offset to sample 0 *\/$/;"	m	struct:hsdata	file:
+start	signal.c	/^    long start;			\/* signal file byte offset to sample 0 *\/$/;"	m	struct:igdata	file:
+stat	signal.c	/^    int stat;			\/* signal file status flag *\/$/;"	m	struct:igdata	file:
+stat	wfdb.h	/^    int stat;		\/* file type\/access code (READ, WRITE, etc.) *\/$/;"	m	struct:WFDB_anninfo
+stdin	wfdblib.h	189;"	d
+stdout	wfdblib.h	192;"	d
+store_edfheader_field	ecgdata.cpp	/^void EcgData::store_edfheader_field( QByteArray header, QString fieldname, int fieldsize )$/;"	f	class:EcgData
+store_pacer_position	showsignal.cpp	/^void ShowSignal::store_pacer_position( long samplePos )$/;"	f	class:ShowSignal
+strann	annot.c	/^FINT strann(char *str)$/;"	f
+strcat	wfdblib.h	284;"	d
+strchr	wfdb.h	442;"	d
+strchr	wfdblib.h	285;"	d
+strcmp	wfdblib.h	286;"	d
+strcpy	wfdblib.h	287;"	d
+strdat	signal.c	/^FDATE strdat(char *string)$/;"	f
+strecg	annot.c	/^FINT strecg(char *str)$/;"	f
+strippedName	showsignal.h	/^	QString strippedName(const QString &fullFileName) { return QFileInfo(fullFileName).fileName(); }$/;"	f	class:ShowSignal
+strlen	wfdblib.h	288;"	d
+strncmp	wfdblib.h	289;"	d
+strtim	signal.c	/^FSITIME strtim(char *string)$/;"	f
+strtok	wfdbio.c	/^char *strtok(char *p, char *sep)$/;"	f
+strtok	wfdblib.h	290;"	d
+struct_debug	beatinfo.h	/^	struct struct_debug {$/;"	s	class:BeatInfo
+subtyp	wfdb.h	/^    signed char subtyp;	\/* annotation subtype *\/$/;"	m	struct:WFDB_ann
+testLine	pages.h	/^    QLineEdit *testLine;$/;"	m	class:EcgPage
+tim	infobox.h	/^	QTimer *tim;$/;"	m	class:InfoBox
+time	wfdb.h	/^    WFDB_Time time;	\/* annotation time, in sample intervals from$/;"	m	struct:WFDB_ann
+time_string	signal.c	/^static char time_string[30];$/;"	v	file:
+time_t	signal.c	/^typedef long time_t;$/;"	t	file:
+time_t	wfdb.h	/^typedef long time_t;$/;"	t
+timstr	signal.c	/^FSTRING timstr(WFDB_Time t)$/;"	f
+tmul	annot.c	/^    double tmul, ptmul;		\/* tmul * annotation time = sample count *\/$/;"	m	struct:iadata	file:
+tnextvec	signal.c	/^FSITIME tnextvec(WFDB_Signal s, WFDB_Time t)$/;"	f
+to_ann	ann_map.c	/^uint8_t to_ann(uint8_t code)$/;"	f
+tspf	signal.c	/^static int need_sigmap, maxvsig, nvsig, tspf;$/;"	v	file:
+tstring	annot.c	/^static char *tstring[ACMAX+1] = {  \/* descriptive strings for each code *\/$/;"	v	file:
+tt	annot.c	/^    WFDB_Time tt;		\/* annotation time (MIT format only).  This$/;"	m	struct:iadata	file:
+tuvlen	signal.c	/^static int tuvlen;		\/* lengths of tvector and uvector in samples *\/$/;"	v	file:
+tvector	signal.c	/^static WFDB_Sample *tvector;	\/* getvec workspace *\/$/;"	v	file:
+type	beatinfo.h	/^	int	type;$/;"	m	class:BeatInfo
+type	wfdbio.c	/^    int type;		\/* WFDB_LOCAL or WFDB_NET *\/$/;"	m	struct:wfdb_path_component	file:
+type	wfdblib.h	/^  int type;$/;"	m	struct:WFDB_FILE
+ui	infobox.h	/^	Ui::InfoBox * ui;$/;"	m	class:InfoBox
+ui	mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	class:MainWindow
+ungetann	annot.c	/^FINT ungetann(WFDB_Annotator n, WFDB_Annotation *annot)$/;"	f
+units	wfdb.h	/^    char *units;	\/* physical units (mV unless otherwise specified) *\/$/;"	m	struct:WFDB_siginfo
+units	wfdb.h	/^    char *units;	\/* physical units *\/$/;"	m	struct:WFDB_calinfo
+updatePacerText	mainwindow.cpp	/^void MainWindow::updatePacerText( QString txt )$/;"	f	class:MainWindow
+updateVisibleChild	mainwindow.cpp	/^void MainWindow::updateVisibleChild( int index )$/;"	f	class:MainWindow
+updateWindowMenu	mainwindow.cpp	/^void MainWindow::updateWindowMenu()$/;"	f	class:MainWindow
+url	wfdblib.h	/^  char *url;$/;"	m	struct:netfile
+userFriendlyCurrentFile	showsignal.h	/^    QString userFriendlyCurrentFile() { return strippedName(curFile); }$/;"	f	class:ShowSignal
+userLevel	pages.h	/^    QComboBox *userLevel;$/;"	m	class:UserPage
+userPage	configdialog.h	/^    UserPage* userPage;$/;"	m	class:ConfigDialog
+uvector	signal.c	/^static WFDB_Sample *uvector;	\/* isgsettime workspace *\/$/;"	v	file:
+viewableDateTime	ecgdata.h	/^    QDateTime viewableDateTime;$/;"	m	class:EcgData
+visibilityChan1	pages.cpp	/^void VisualizationPage::visibilityChan1( bool isChecked )$/;"	f	class:VisualizationPage
+visibilityChan2	pages.cpp	/^void VisualizationPage::visibilityChan2( bool isChecked )$/;"	f	class:VisualizationPage
+visibilityChan3	pages.cpp	/^void VisualizationPage::visibilityChan3( bool isChecked )$/;"	f	class:VisualizationPage
+visualPage	configdialog.h	/^    VisualizationPage* visualPage;$/;"	m	class:ConfigDialog
+vsd	signal.c	/^static struct isdata **vsd;$/;"	v	typeref:struct:isdata	file:
+vvector	signal.c	/^static WFDB_Sample *vvector;	\/* tnextvec workspace *\/$/;"	v	file:
+w16	signal.c	/^static void w16(WFDB_Sample v, struct ogdata *g)$/;"	f	file:
+w16	signal.c	1322;"	d	file:
+w160	signal.c	1400;"	d	file:
+w212	signal.c	/^static void w212(WFDB_Sample v, struct ogdata *g)                 $/;"	f	file:
+w24	signal.c	/^static void w24(WFDB_Sample v, struct ogdata *g)$/;"	f	file:
+w24	signal.c	1326;"	d	file:
+w310	signal.c	/^static void w310(WFDB_Sample v, struct ogdata *g)                 $/;"	f	file:
+w311	signal.c	/^static void w311(WFDB_Sample v, struct ogdata *g)                 $/;"	f	file:
+w32	signal.c	/^static void w32(WFDB_Sample v, struct ogdata *g)$/;"	f	file:
+w32	signal.c	1328;"	d	file:
+w61	signal.c	/^static void w61(WFDB_Sample v, struct ogdata *g)$/;"	f	file:
+w61	signal.c	1324;"	d	file:
+w8	signal.c	1312;"	d	file:
+w80	signal.c	1397;"	d	file:
+wfdb_CPP	wfdb.h	403;"	d
+wfdb_CPP	wfdb.h	46;"	d
+wfdb_CPP	wfdb.h	51;"	d
+wfdb_ECGCODES_H	ecgcodes.h	31;"	d
+wfdb_ECGMAP_H	ecgmap.h	37;"	d
+wfdb_KRC	wfdb.h	407;"	d
+wfdb_KRC	wfdb.h	66;"	d
+wfdb_PROTO	wfdb.h	399;"	d
+wfdb_PROTO	wfdb.h	41;"	d
+wfdb_PROTO	wfdb.h	47;"	d
+wfdb_PROTO	wfdb.h	52;"	d
+wfdb_PROTO	wfdb.h	62;"	d
+wfdb_WFDB_H	wfdb.h	30;"	d
+wfdb_addtopath	wfdbio.c	/^void wfdb_addtopath(char *s)$/;"	f
+wfdb_ammap	annot.c	/^FINT wfdb_ammap(int code)$/;"	f
+wfdb_ammp	ecgmap.h	/^static char wfdb_ammp[] = {$/;"	v
+wfdb_anclose	annot.c	/^void wfdb_anclose(void)$/;"	f
+wfdb_annp	ecgmap.h	/^static char wfdb_annp[] = {$/;"	v
+wfdb_annpos	annot.c	/^FINT wfdb_annpos(int code)$/;"	f
+wfdb_checkname	wfdbio.c	/^int wfdb_checkname(char *p, char *s)$/;"	f
+wfdb_clearerr	wfdbio.c	/^void wfdb_clearerr(WFDB_FILE *wp)$/;"	f
+wfdb_error	wfdbio.c	/^void wfdb_error(char *format, ...)$/;"	f
+wfdb_error	wfdbio.c	/^void wfdb_error(format, arguments)$/;"	f
+wfdb_error	wfdbio.c	/^void wfdb_error(va_alist)$/;"	f
+wfdb_export_config	wfdbio.c	/^void wfdb_export_config(void)$/;"	f
+wfdb_export_config	wfdbio.c	568;"	d	file:
+wfdb_fclose	wfdbio.c	/^int wfdb_fclose(WFDB_FILE *wp)$/;"	f
+wfdb_feof	wfdbio.c	/^int wfdb_feof(WFDB_FILE *wp)$/;"	f
+wfdb_feof	wfdblib.h	269;"	d
+wfdb_ferror	wfdbio.c	/^int wfdb_ferror(WFDB_FILE *wp)$/;"	f
+wfdb_ferror	wfdblib.h	270;"	d
+wfdb_fflush	wfdbio.c	/^int wfdb_fflush(WFDB_FILE *wp)$/;"	f
+wfdb_fflush	wfdblib.h	271;"	d
+wfdb_fgets	wfdbio.c	/^char* wfdb_fgets(char *s, int size, WFDB_FILE *wp)$/;"	f
+wfdb_fgets	wfdblib.h	272;"	d
+wfdb_filename	wfdbio.c	/^static char wfdb_filename[MFNLEN];$/;"	v	file:
+wfdb_fopen	wfdbio.c	/^WFDB_FILE *wfdb_fopen(char *fname, const char *mode)$/;"	f
+wfdb_fprintf	wfdbio.c	/^int wfdb_fprintf(WFDB_FILE *wp, const char *format, ...)$/;"	f
+wfdb_fprintf	wfdbio.c	/^int wfdb_fprintf(va_alist)$/;"	f
+wfdb_fprintf	wfdbio.c	/^int wfdb_fprintf(wp, format, arguments)$/;"	f
+wfdb_fread	wfdbio.c	/^size_t wfdb_fread(void *ptr, size_t size, size_t nmemb, WFDB_FILE *wp)$/;"	f
+wfdb_fread	wfdblib.h	273;"	d
+wfdb_free_config	wfdbio.c	/^void wfdb_free_config(void)$/;"	f
+wfdb_free_path_list	wfdbio.c	/^void wfdb_free_path_list(void)$/;"	f
+wfdb_freeinfo	signal.c	/^void wfdb_freeinfo(void)$/;"	f
+wfdb_fseek	wfdbio.c	/^int wfdb_fseek(WFDB_FILE *wp, long int offset, int whence)$/;"	f
+wfdb_fseek	wfdblib.h	274;"	d
+wfdb_ftell	wfdbio.c	/^long wfdb_ftell(WFDB_FILE *wp)$/;"	f
+wfdb_ftell	wfdblib.h	275;"	d
+wfdb_fwrite	wfdbio.c	/^size_t wfdb_fwrite(void *ptr, size_t size, size_t nmemb, WFDB_FILE *wp)$/;"	f
+wfdb_fwrite	wfdblib.h	276;"	d
+wfdb_g16	wfdbio.c	/^int wfdb_g16(WFDB_FILE *fp)$/;"	f
+wfdb_g32	wfdbio.c	/^long wfdb_g32(WFDB_FILE *fp)$/;"	f
+wfdb_getc	wfdbio.c	/^int wfdb_getc(WFDB_FILE *wp)$/;"	f
+wfdb_getc	wfdblib.h	277;"	d
+wfdb_getirec	wfdbio.c	/^char *wfdb_getirec(void)$/;"	f
+wfdb_getiwfdb	wfdbio.c	/^char *wfdb_getiwfdb(char *p)$/;"	f
+wfdb_isann	annot.c	/^FINT wfdb_isann(int code)$/;"	f
+wfdb_isqrs	annot.c	/^FINT wfdb_isqrs(int code)$/;"	f
+wfdb_mamap	annot.c	/^FINT wfdb_mamap(int code, int subtype)$/;"	f
+wfdb_mamp	ecgmap.h	/^static char wfdb_mamp[] = {$/;"	v
+wfdb_map1	annot.c	/^FINT wfdb_map1(int code)$/;"	f
+wfdb_map2	annot.c	/^FINT wfdb_map2(int code)$/;"	f
+wfdb_me_fatal	wfdbio.c	/^int wfdb_me_fatal()	\/* used by the MEMERR macro defined in wfdblib.h *\/$/;"	f
+wfdb_mem_behavior	wfdbio.c	/^static int wfdb_mem_behavior = 1;$/;"	v	file:
+wfdb_mp1	ecgmap.h	/^static char wfdb_mp1[] = {$/;"	v
+wfdb_mp2	ecgmap.h	/^static char wfdb_mp2[] = {$/;"	v
+wfdb_mt	ecgmap.h	/^static int wfdb_mt;		\/* macro temporary variable *\/$/;"	v
+wfdb_oaflush	annot.c	/^void wfdb_oaflush(void)$/;"	f
+wfdb_oinfoclose	signal.c	/^void wfdb_oinfoclose(void)$/;"	f
+wfdb_open	wfdbio.c	/^WFDB_FILE *wfdb_open(const char *s, const char *record, int mode)$/;"	f
+wfdb_osflush	signal.c	/^void wfdb_osflush(void)$/;"	f
+wfdb_p16	wfdbio.c	/^void wfdb_p16(unsigned int x, WFDB_FILE *fp)$/;"	f
+wfdb_p32	wfdbio.c	/^void wfdb_p32(long x, WFDB_FILE *fp)$/;"	f
+wfdb_parse_path	wfdbio.c	/^int wfdb_parse_path(char *p)$/;"	f
+wfdb_path_component	wfdbio.c	/^struct wfdb_path_component {$/;"	s	file:
+wfdb_path_list	wfdbio.c	/^static struct wfdb_path_component *wfdb_path_list;$/;"	v	typeref:struct:wfdb_path_component	file:
+wfdb_putc	wfdbio.c	/^int wfdb_putc(int c, WFDB_FILE *wp)$/;"	f
+wfdb_putc	wfdblib.h	278;"	d
+wfdb_qrs	ecgmap.h	/^static char wfdb_qrs[] = {$/;"	v
+wfdb_sampquit	signal.c	/^void wfdb_sampquit(void)$/;"	f
+wfdb_setannpos	annot.c	/^FINT wfdb_setannpos(int code, int newval)$/;"	f
+wfdb_setirec	wfdbio.c	/^void wfdb_setirec(const char *p)$/;"	f
+wfdb_setisqrs	annot.c	/^FINT wfdb_setisqrs(int code, int newval)$/;"	f
+wfdb_setmap1	annot.c	/^FINT wfdb_setmap1(int code, int newval)$/;"	f
+wfdb_setmap2	annot.c	/^FINT wfdb_setmap2(int code, int newval)$/;"	f
+wfdb_sigclose	signal.c	/^void wfdb_sigclose(void)$/;"	f
+wfdb_striphea	wfdbio.c	/^void wfdb_striphea(char *p)$/;"	f
+wfdb_wwwquit	wfdbio.c	/^static void wfdb_wwwquit(void)$/;"	f	file:
+wfdbcflags	wfdbio.c	/^FCONSTSTRING wfdbcflags(void)$/;"	f
+wfdbdefwfdb	wfdbio.c	/^FCONSTSTRING wfdbdefwfdb(void)$/;"	f
+wfdbdefwfdbcal	wfdbio.c	/^FCONSTSTRING wfdbdefwfdbcal(void)$/;"	f
+wfdberror	wfdbio.c	/^FSTRING wfdberror(void)$/;"	f
+wfdbfile	wfdbio.c	/^FSTRING wfdbfile(char *s, char *record)$/;"	f
+wfdbflush	wfdbinit.c	/^FVOID wfdbflush(void)	\/* write all buffered output to files *\/$/;"	f
+wfdbgetskew	signal.c	/^FINT wfdbgetskew(WFDB_Signal s)$/;"	f
+wfdbgetstart	signal.c	/^FLONGINT wfdbgetstart(WFDB_Signal s)$/;"	f
+wfdbinit	wfdbinit.c	/^FINT wfdbinit(char *record, WFDB_Anninfo *aiarray, unsigned int nann,$/;"	f
+wfdbldflags	wfdbio.c	/^FCONSTSTRING wfdbldflags(void)$/;"	f
+wfdbmemerr	wfdbio.c	/^FVOID wfdbmemerr(int behavior)$/;"	f
+wfdbpath	wfdbio.c	/^static char *wfdbpath = NULL, *wfdbpath_init = NULL;$/;"	v	file:
+wfdbpath_init	wfdbio.c	/^static char *wfdbpath = NULL, *wfdbpath_init = NULL;$/;"	v	file:
+wfdbputprolog	signal.c	/^FINT wfdbputprolog(char *buf, long int size, WFDB_Signal s)$/;"	f
+wfdbquiet	wfdbio.c	/^FVOID wfdbquiet(void)$/;"	f
+wfdbquit	wfdbinit.c	/^FVOID wfdbquit(void)$/;"	f
+wfdbsetiskew	signal.c	/^FVOID wfdbsetiskew(WFDB_Signal s, int skew)$/;"	f
+wfdbsetskew	signal.c	/^FVOID wfdbsetskew(WFDB_Signal s, int skew)$/;"	f
+wfdbsetstart	signal.c	/^FVOID wfdbsetstart(WFDB_Signal s, long int bytes)$/;"	f
+wfdbverbose	wfdbio.c	/^FVOID wfdbverbose(void)$/;"	f
+wfdbversion	wfdbio.c	/^FCONSTSTRING wfdbversion(void)$/;"	f
+wgetenv	wfdbio.c	/^char FAR *wgetenv(char far *var)$/;"	f
+wheelEvent	showsignal.cpp	/^void ShowSignal::wheelEvent( QWheelEvent *event )$/;"	f	class:ShowSignal
+windowMapper	mainwindow.h	/^    QSignalMapper *windowMapper;$/;"	m	class:MainWindow
+word	annot.c	/^    unsigned word;		\/* next word from the input file *\/$/;"	m	struct:iadata	file:
+writeSettings	mainwindow.cpp	/^void MainWindow::writeSettings()$/;"	f	class:MainWindow
+www_done_init	wfdbio.c	/^static int www_done_init = FALSE;	\/* TRUE once libcurl or libwww is$/;"	v	file:
+www_get_cont_len	wfdbio.c	/^static long www_get_cont_len(const char *url)$/;"	f	file:
+www_get_url_chunk	wfdbio.c	/^static CHUNK *www_get_url_chunk(const char *url)$/;"	f	file:
+www_get_url_range_chunk	wfdbio.c	/^static CHUNK *www_get_url_range_chunk(const char *url, long startb, long len)$/;"	f	file:
+www_init	wfdbio.c	/^static void www_init(void)$/;"	f	file:
+www_parse_passwords	wfdbio.c	/^static void www_parse_passwords(const char *str)$/;"	f	file:
+www_userpwd	wfdbio.c	/^static const char *www_userpwd(const char *url)$/;"	f	file:
+xRot	showsignal.h	/^    int xRot;$/;"	m	class:ShowSignal
+xScaling	showsignal.h	/^	double xScaling, yScaling;$/;"	m	class:ShowSignal
+yOffsetDragged	showsignal.h	/^	int yOffsetDragged;$/;"	m	class:ShowSignal
+yRot	showsignal.h	/^    int yRot;$/;"	m	class:ShowSignal
+yScaling	showsignal.h	/^	double xScaling, yScaling;$/;"	m	class:ShowSignal
+zRot	showsignal.h	/^    int zRot;$/;"	m	class:ShowSignal
+zoom_amount	showsignal.h	/^	float zoom_amount;$/;"	m	class:ShowSignal
+~EcgData	ecgdata.cpp	/^EcgData::~EcgData()$/;"	f	class:EcgData
+~InfoBox	infobox.cpp	/^InfoBox::~InfoBox()$/;"	f	class:InfoBox
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+~ShowSignal	showsignal.cpp	/^ShowSignal::~ShowSignal()$/;"	f	class:ShowSignal
