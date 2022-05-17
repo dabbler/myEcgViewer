@@ -585,6 +585,10 @@ void ShowSignal::keyPressEvent( QKeyEvent * event )
 
 
 	switch ( key ) {
+		case 'q':
+			QApplication::quit();
+			break;
+
 
 		case 'D':
 		case 'd':
