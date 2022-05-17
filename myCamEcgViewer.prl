@@ -18,7 +18,7 @@ HEADERS += \
     version.h
 
 SOURCES += \
-	SironaHolterViewer.cpp \
+	myCamEcgViewer.cpp \
     ecgdata.cpp \
     showsignal.cpp \
     utils.cpp \

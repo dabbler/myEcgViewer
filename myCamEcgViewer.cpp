@@ -1,5 +1,5 @@
 /**
- * @file SironaHolterViewer.cpp
+ * @file myCamEcgViewer.cpp
  *
  * Copyright (C) 2018 Datrix
  *
@@ -80,11 +80,11 @@ void show_splash()
 
     myfont.setPointSize(32);
     p.setFont( myfont );
-    p.drawText( 0, -fonthgt * 4, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("Datrix ECG Viewer") );
+    p.drawText( 0, -fonthgt * 4, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("myCam ECG Viewer") );
 
     myfont.setPointSize(26);
     p.setFont( myfont );
-    p.drawText( 0, -fonthgt * 6/2, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("Demo") );
+    p.drawText( 0, -fonthgt * 6/2, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("Ecg Viewer") );
 
     myfont.setPointSize(20);
     p.setFont( myfont );
@@ -92,7 +92,7 @@ void show_splash()
 
     myfont.setPointSize(10);
     p.setFont( myfont );
-    p.drawText( 0, fonthgt * 3, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("\xa9 Copyright 2017 Datrix LLC") );
+    p.drawText( 0, fonthgt * 3, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("\xa9 Copyright 2022 myCam LLC") );
 
     QSplashScreen *splash = new QSplashScreen(pixmap);
     splash->show();

@@ -168,8 +168,8 @@ QString EcgData::parse_header( QString filename )
 
 	qDebug() << qPrintable(tr("parse_header(%1)     ecgheader_filename = '%2'").arg(unadulterated_ecgdata_filename).arg(ecgheader_filename));
 
-    /** set the default Sirona parameters in case no HEA file is found */
-    channel_count = 3;
+    /** set the default myCam parameters in case no HEA file is found */
+    channel_count = 1;
     samps_per_chan_per_sec = 256;
 
     if ( ! QFile::exists(ecgheader_filename) && QFile::exists(ECG_HEADER_UNIVERSAL) ) {
@@ -222,8 +222,8 @@ QString EcgData::parse_header( QString filename )
         }
     }
 
-    signal_format_specifier = 311;
-    bytes_per_samp = 4;
+    signal_format_specifier = 80;
+    bytes_per_samp = 1;
 
     qDebug() << qPrintable(tr("parse_header(%1)     ecgheader_filename = '%2'").arg(filename).arg(ecgheader_filename));
 
@@ -322,7 +322,7 @@ int EcgData::Load( QString filename )
 
 		samp = ( WFDB_Sample * ) malloc( channel_count * sizeof( WFDB_Sample ) );
 
-		device_range_mV = 10; // FIXME: Critical info. device_range_mV is 10 for SironaPWM, and 20 for Centauri.
+		device_range_mV = 5;
 
 		qDebug() << "\n" << QString( "wfdbSignalInfo : load(%1)     device_range_mV = %2      nsamp = %3" ).arg( filename ).arg( device_range_mV ).arg( ( int ) wfdbSignalInfo->nsamp ) << "\n";
 
@@ -396,77 +396,24 @@ int EcgData::Load( QString filename )
 		switch ( signal_format_specifier ) {
 
 			default:
-			case 311:
+			case 80:
 				{
-					emit load_size( (int) filesize );
+					emit load_size( ( int ) datalen_secs * samps_per_chan_per_sec );
+					device_range_mV = 5;
 
-					device_range_mV = 10;
+					for ( i = 0; i < datalen_secs * samps_per_chan_per_sec; i++ ) {
+						SHOW_PROGRESS_AND_WATCHFOR_CANCEL( i );
+						for ( int ch = 0; ch < channel_count; ch++ ) {
+							unsigned char rawValue = ( signed char ) rawdata[i * channel_count + ch];
 
-					long adcRange = (1 << 10);
-					sampleCnt = 0;
-
-					for ( i = 4-1 ; i < filesize; i += sizeof(uint32_t) ) {
-
-						SHOW_PROGRESS_AND_WATCHFOR_CANCEL(i);
-
-						/* for hammer testing we have a special format for 2 channel where these pacemaker indicators are really used for channel info */
-						if ( MASK_THESE_BITS(rawdata[i-0] >> 6, 1) == 0x01 ) {
-							emit pacer_spike_found( sampleCnt );
-						}
-
-						short samp[3] = { 0 };
-
-						samp[0] |= MASK_THESE_BITS(rawdata[i-3], 8);
-						samp[0] |= MASK_THESE_BITS(rawdata[i-2], 2) << 8;
-						samp[1] |= MASK_THESE_BITS(rawdata[i-2] >> 2, 6);
-						samp[1] |= MASK_THESE_BITS(rawdata[i-1], 4) << 6;
-						samp[2] |= MASK_THESE_BITS(rawdata[i-1] >> 4, 4);
-						samp[2] |= MASK_THESE_BITS(rawdata[i-0], 6) << 4;
-
-						/* turn 10 bit signed to 16 bit signed */
-						for ( int eachSample = 0 ; eachSample < 3 ; eachSample++ ) {
-							samp[eachSample] <<= (16-10);
-							samp[eachSample] >>= (16-10);
-						}
-
-						switch ( channel_count ) {
-							case 3:
-								STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[0] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								STORE_INTO_CHDATA( 1, sampleCnt, qRound((qreal)samp[1] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								STORE_INTO_CHDATA( 2, sampleCnt, qRound((qreal)samp[2] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								sampleCnt++;
-								break;
-							case 2:
-								if ( (rawdata[i-0] & 0x80) == 0 ) {
-									STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[2] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-									STORE_INTO_CHDATA( 1, sampleCnt, qRound((qreal)samp[1] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-									sampleCnt++;
-									STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[0] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								} else {
-									STORE_INTO_CHDATA( 1, sampleCnt, qRound((qreal)samp[2] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-									sampleCnt++;
-									STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[1] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-									STORE_INTO_CHDATA( 1, sampleCnt, qRound((qreal)samp[0] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-									sampleCnt++;
-								}
-								break;
-							case 1:
-
-								STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[0] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								sampleCnt++;
-								STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[1] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								sampleCnt++;
-								STORE_INTO_CHDATA( 0, sampleCnt, qRound((qreal)samp[2] * range_per_sample / (qreal)adcRange) + range_per_sample/2 );
-								sampleCnt++;
-								break;
+							STORE_INTO_CHDATA( ch, i, ROUND2INT( rawValue * range_per_sample / pow( 2, 8 * bytes_per_samp ) ) );
 						}
 					}
 
-					/* signal the pacer storage facility that we are at the end of paced beats to be stored */
-					emit pacer_spike_found( -1 );
-
-					/* set the datalen_secs based on how much data was processed */
-					datalen_secs = (int) (sampleCnt / samps_per_chan_per_sec);
+					if ( !data_loading ) {
+						/* reset the datalen_secs in case the data loading was canceled part way through */
+						datalen_secs = ( int ) ( i / samps_per_chan_per_sec );
+					}
 				}
 				break;
 		}
