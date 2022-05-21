@@ -1,0 +1,7 @@
+.*.swp
+*.stash
+*.user
+*.Release
+*.Debug
+Makefile*
+tmp

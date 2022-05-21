@@ -59,7 +59,7 @@ EcgData::EcgData( QWidget *parent )
     range_per_sample = 50000;
     channel_count = 3;
     datalen_secs = 0;
-    samps_per_chan_per_sec = 256;
+    samps_per_chan_per_sec = 16000/80;
     signal_format_specifier = 311;
     bytes_per_samp = 4;
     viewableDateTime = QDateTime( QDate::currentDate(), QTime(0,0,0) );
@@ -77,7 +77,7 @@ EcgData::EcgData( QString filename, QWidget *parent )
     range_per_sample = 50000;
     channel_count = 3;
     datalen_secs = 0;
-    samps_per_chan_per_sec = 256;
+    samps_per_chan_per_sec = 16000/80;
     signal_format_specifier = 311;
     bytes_per_samp = 4;
     data_loading = true;
@@ -170,7 +170,7 @@ QString EcgData::parse_header( QString filename )
 
     /** set the default myCam parameters in case no HEA file is found */
     channel_count = 1;
-    samps_per_chan_per_sec = 256;
+    samps_per_chan_per_sec = 16000/80;
 
     if ( ! QFile::exists(ecgheader_filename) && QFile::exists(ECG_HEADER_UNIVERSAL) ) {
         ecgheader_filename = ECG_HEADER_UNIVERSAL;
@@ -222,7 +222,7 @@ QString EcgData::parse_header( QString filename )
         }
     }
 
-    signal_format_specifier = 80;
+    signal_format_specifier = 81;
     bytes_per_samp = 1;
 
     qDebug() << qPrintable(tr("parse_header(%1)     ecgheader_filename = '%2'").arg(filename).arg(ecgheader_filename));
@@ -396,7 +396,7 @@ int EcgData::Load( QString filename )
 		switch ( signal_format_specifier ) {
 
 			default:
-			case 80:
+			case 81:
 				{
 					emit load_size( ( int ) datalen_secs * samps_per_chan_per_sec );
 					device_range_mV = 5;
@@ -404,7 +404,7 @@ int EcgData::Load( QString filename )
 					for ( i = 0; i < datalen_secs * samps_per_chan_per_sec; i++ ) {
 						SHOW_PROGRESS_AND_WATCHFOR_CANCEL( i );
 						for ( int ch = 0; ch < channel_count; ch++ ) {
-							unsigned char rawValue = ( signed char ) rawdata[i * channel_count + ch];
+							unsigned char rawValue = ( signed char ) rawdata[i * channel_count + ch] * 2 + 0x80;
 
 							STORE_INTO_CHDATA( ch, i, ROUND2INT( rawValue * range_per_sample / pow( 2, 8 * bytes_per_samp ) ) );
 						}
