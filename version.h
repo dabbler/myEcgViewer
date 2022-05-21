@@ -22,9 +22,9 @@
 
 #include <QtGui>
 
-#define VERSION_MAJOR	2
+#define VERSION_MAJOR	1
 #define VERSION_MINOR	1
-#define SVN_REVISION	131
+#define SVN_REVISION	0
 
 QString glb_version = QString("$Rev:  %1.%2.%3").arg(VERSION_MAJOR).arg(VERSION_MINOR).arg( QString::number(SVN_REVISION) );
 

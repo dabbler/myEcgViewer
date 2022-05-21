@@ -92,7 +92,7 @@ void show_splash()
 
     myfont.setPointSize(10);
     p.setFont( myfont );
-    p.drawText( 0, fonthgt * 3, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("\xa9 Copyright 2022 myCam LLC") );
+    p.drawText( 0, fonthgt * 3, pixmap.width(), pixmap.height(), Qt::AlignCenter, QApplication::tr("\xa9 Copyright 2022 My-Cardia") );
 
     QSplashScreen *splash = new QSplashScreen(pixmap);
     splash->show();
